@@ -1,0 +1,118 @@
+body {
+	background-color: #ffffff;
+}
+.navigation-button-area {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.filter-options input[type="radio"] {
+	display: none;
+}
+input:checked ~ span {
+	background-color: #1447a0;
+	border: 2px solid #1447a0;
+	color: white !important;
+}
+input:disabled ~ span {
+	cursor: no-drop;
+	color: silver !important;
+}
+.filter {
+	padding-right: 15px;
+	display: inline-block;
+}
+.filter .label {
+	font-weight: bold;
+	color: #1447a0;
+	text-transform: capitalize;
+	font-weight: 700;
+	display: inline-block;
+}
+.currency .value span {
+	text-transform: uppercase;
+}
+.value span,
+.tabToggle {
+	font-weight: normal;
+	background-color: #f8f8f9;
+	border: 2px solid #f8f8f9;
+	padding: 5px 10px;
+	border-radius: 4px;
+	color: #444;
+	cursor: pointer;
+	display: inline-block;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	font-size: 13px;
+	font-family: inherit;
+}
+.filter label {
+	font-weight: bold;
+	font-size: 0.92em;
+}
+
+.tabToggle.bg {
+	background-color: #1447a0;
+	border: 2px solid #1447a0;
+	color: white !important;
+}
+
+.data-table-area tbody tr td:first-child {
+	text-align: left;
+}
+.data-table-area tbody tr td {
+	text-align: center;
+}
+.data-table-area .table {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+table.table tr:first-child th:first-child {
+	border-radius: 4px 0px 0px 0px;
+}
+.table thead th {
+	vertical-align: bottom;
+	border-top: 0px solid transparent !important;
+	border-bottom: 0px solid transparent !important;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000000;
+	font-weight: normal;
+}
+.table thead th span {
+	font-size: 12px;
+}
+.table td,
+.table th {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: 0px solid transparent !important;
+}
+.table tbody tr td span {
+	text-decoration: line-through;
+	padding-right: 5px;
+}
+.table thead th:nth-child(1),
+.table tbody tr td:nth-child(1) {
+	background-color: #ffffff;
+}
+.table thead th:nth-child(1),
+.table thead th:nth-child(2),
+.table thead th:nth-child(3),
+.table thead th:nth-child(4) {
+	border-bottom: 2px solid #ffffff !important;
+}
+.table thead th:nth-child(2),
+.table tbody tr td:nth-child(2) {
+	background-color: #f8f8f9;
+}
+
+.table thead th:nth-child(3),
+.table tbody tr td:nth-child(3) {
+	background-color: #dce4ef;
+}
+
+.table thead th:nth-child(4),
+.table tbody tr td:nth-child(4) {
+	background-color: #1447a0;
+	color: #ffffff !important;
+}
