@@ -5,10 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>PSD TO HTML || DRY-CLEANERS</title>
 		<!-- google fonts  -->
-		<!-- <link
-			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Oswald:wght@400;500;600;700&display=swap"
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
 			rel="stylesheet"
-		/> -->
+		/>
 
 		<!-- bootstrap css  -->
 		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
@@ -19,7 +19,7 @@
 		<!-- navigation button area  -->
 		<div class="navigation-button-area">
 			<div class="container">
-				<div class="row mb-5">
+				<div class="row">
 					<div class="col-md-12">
 						<div class="filter-options">
 							<div class="objectivesSwitcher">
@@ -103,7 +103,6 @@
 											type="radio"
 											name="capital2"
 											value="4"
-											disabled="disabled"
 										/><span>$100,000</span></label
 									>
 								</div>
@@ -114,10 +113,8 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div
-							class="data-table-area table-responsive table-responsive-sm table-responsive-md table-responsive-lg"
-						>
-							<table class="table">
+						<div class="data-table-area table-responsive">
+							<table class="">
 								<thead>
 									<tr>
 										<th scope="col"></th>
@@ -136,38 +133,47 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
-										<td>Trading Term</td>
+									<tr class="noBorder">
+										<td><b>Trading Term</b></td>
 										<td>30 days</td>
 										<td>60 days</td>
 										<td>indefinite</td>
 									</tr>
-									<tr>
-										<td>Minimum Trading Days</td>
+									<tr class="noBorder">
+										<td><b>Minimum Trading Days</b></td>
 										<td>15 days</td>
 										<td>15 days</td>
 										<td>15 days</td>
 									</tr>
-									<tr>
-										<td>Maximum Daily Loss</td>
+									<tr class="noBorder">
+										<td><b>Maximum Daily Loss</b></td>
 										<td>$5 000</td>
 										<td>$5 000</td>
 										<td>$5 000</td>
 									</tr>
-									<tr>
-										<td>Maximum Loss</td>
+									<tr class="noBorder">
+										<td><b>Maximum Loss</b></td>
 										<td>$10 000</td>
 										<td>$10 000</td>
 										<td>$10 000</td>
 									</tr>
-									<tr>
-										<td>Profit Target</td>
+									<tr class="noBorder">
+										<td><b>Profit Target</b></td>
 										<td>$10 000</td>
-										<td><span>$10 000</span> $5 000</td>
+										<td>
+											<span>$10 000</span>
+											<span
+												style="
+													color: green;
+													font-weight: bold;
+												"
+												>$5 000</span
+											>
+										</td>
 										<td>x</td>
 									</tr>
-									<tr>
-										<td>Leverage</td>
+									<tr class="noBorder">
+										<td><b>Leverage</b></td>
 										<td>1:100</td>
 										<td>1:100</td>
 										<td>1:100</td>
