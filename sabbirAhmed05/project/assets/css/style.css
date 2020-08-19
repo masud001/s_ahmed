@@ -422,8 +422,28 @@ button.mixitup-control-active {
 .products .mix {
 	margin-top: 15px;
 	margin-bottom: 15px;
+	position: relative;
 }
 
+.product-description {
+	position: absolute;
+	visibility: hidden;
+	transition: 0.3s all ease-in;
+}
+.products .mix:hover .product-description {
+	visibility: visible;
+	position: relative;
+	width: 100%;
+	height: auto;
+	transition: 0.3s all ease-in;
+	padding-top: 15px;
+}
+.product-description p {
+	font-family: "LatoLight";
+	color: #5d5d5d;
+	font-size: 14px;
+	line-height: 24px;
+}
 /* 08--> latest news section. 
 --------------------------------
 */
@@ -531,6 +551,14 @@ button.mixitup-control-active {
 .email.d-flex.align-items-center img,
 .website.d-flex.align-items-center img {
 	margin-right: 15px;
+	width: 21px;
+	color: #fff;
+}
+.phone.d-flex.align-items-center img svg {
+	color: #fff;
+}
+.svg-phome {
+	fill: #ffffff;
 }
 ul.quick-links li a {
 	display: block;
@@ -557,6 +585,14 @@ ul.quick-links li a:hover {
 .footer-social-icons span {
 	padding: 0px 15px;
 }
+.footer-social-icons span a img.facebook {
+	width: 25px;
+}
+.footer-social-icons span a img.twitter {
+	width: 25px;
+}
+.footer-social-icons span a img {
+}
 .footer-social-icons span:first-child {
 	padding-left: 0px;
 }
@@ -578,6 +614,7 @@ ul.quick-links li a:hover {
 .address-time.d-flex.align-items-center img,
 .address.d-flex.align-items-center img {
 	padding-right: 15px;
+	width: 35px;
 }
 .copy-write-text {
 	padding: 30px 0px;
