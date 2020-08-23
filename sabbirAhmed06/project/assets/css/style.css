@@ -85,6 +85,9 @@ h6 {
 /* header section  start  (01)
 =====================================================
 */
+#search-form {
+	display: none;
+}
 
 /* mobile responsive design (10)
 
