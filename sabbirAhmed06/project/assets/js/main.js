@@ -10,12 +10,13 @@ $(document).ready(function () {
 
 	// this carousel for about us section
 	// ==================================
-	var owl = $(".about-carousel");
+	var owl = $("._slider_wrapper");
 	owl.owlCarousel({
 		loop: true,
-		nav: true,
-		margin: 30,
-		dots: false,
+		nav: false,
+		margin: 17,
+		autoHeight: true,
+		dots: true,
 		navRewind: false,
 		responsiveClass: true,
 		responsive: {
@@ -23,26 +24,23 @@ $(document).ready(function () {
 				items: 1,
 			},
 			600: {
-				items: 3,
+				items: 1,
 			},
 			1000: {
-				items: 3,
+				items: 1,
 			},
 		},
 	});
 
 	// this carousel for testimonials section
 	// ========================================
-	var testimonials = $(".testimonials-carousel");
+	var testimonials = $("._testimonial_slider");
 	testimonials.owlCarousel({
 		loop: true,
-		nav: true,
-		dots: false,
+		nav: false,
+		dots: true,
 		responsiveClass: true,
-		navText: [
-			"<i class='custom-arrow-left'><i/>",
-			"<i class='custom-arrow-right'><i/>",
-		],
+
 		margin: 0,
 		navRewind: false,
 		responsive: {
@@ -57,6 +55,9 @@ $(document).ready(function () {
 			},
 		},
 	});
+
+	/* 
+
 
 	// this code for smooth scrolling
 	// ================================
@@ -100,4 +101,6 @@ $(document).ready(function () {
 				}
 			}
 		});
+	
+	*/
 });
