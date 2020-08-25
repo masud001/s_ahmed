@@ -1,0 +1,1425 @@
+/* 
+01--> _site__top__area start.
+02--> _header__top__area design.
+03--> _header__area start.
+04--> _menu__area section design.
+05--> _slider__area section design
+06--> _we_provide__area design.
+07--> _catagories__area desing.
+08--> _service__area section.
+09--> _about_jeweler__area section area.
+10--> _promo_area section area.
+11--> _new_arival__area section area.
+12--> _testimonials__area section area.
+13--> _gifts__area section area.
+14--> _footer__area section area.
+10--> mobile responsive design from 320 to max....
+*/
+
+/* all page comon fonts  */
+
+/* Lato  
+----------------
+*/
+
+@font-face {
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato/Lato-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Lato-Black";
+	src: url("../fonts/Lato/Lato-Black.ttf") format("truetype");
+	font-weight: 900;
+}
+
+/* Montserrat 
+--------------------
+*/
+
+@font-face {
+	font-family: "Montserrat-semibold";
+	src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+}
+/* Poppins
+--------------------
+*/
+@font-face {
+	font-family: "Poppins-Regular";
+	src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Poppins-Medium";
+	src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Poppins-SemiBold";
+	src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Poppins-Bold";
+	src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+body,
+html,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Lato", "Montserrat", "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* 01--> _site__top__area start. (01)
+=====================================================
+*/
+#_site__top__area {
+	background-color: #ffffff;
+	padding: 10px 0px;
+	display: block;
+}
+#_site__top__area span {
+	color: #151515;
+	font-family: "Montserrat-semibold";
+	font-size: 16px;
+}
+
+/* 02--> _header__top__area design.
+
+*/
+#_header__top__area {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px 0px;
+}
+#_header__top__area .col-md-6 {
+	transition: 0.3s all ease-in;
+}
+._header__top_left_area,
+._header__top_right_area {
+	transition: 0.5s all ease-in;
+}
+
+._header__top_left_area span {
+	color: #ffffff;
+	font-family: "Lato-Bold";
+	margin: 0px 15px;
+}
+._header__top_left_area span:first-child {
+	margin-left: 0px;
+}
+
+._header__top_left_area span i.fa {
+	margin-right: 10px;
+}
+._header__top_left_area span i {
+}
+
+._header__top_right_area span {
+}
+#search-button {
+	background-color: transparent !important;
+	border: 1px solid #444444;
+	color: #ffffff;
+}
+.search__btn_outer {
+	border: 0 !important;
+	padding: 0 !important;
+}
+#search-button:focus {
+	outline: 0;
+	box-shadow: 0 0 0 0 transparent !important;
+}
+#search-button i.fa-search {
+}
+#search-form {
+	display: none;
+}
+#search-icon.input-group-prepend {
+	background: #fff;
+	color: #000;
+	padding: 11px;
+	border-radius: 5px 0px 0px 5px;
+	cursor: pointer;
+}
+._header__top_right_area {
+}
+._header__top_right_area span {
+}
+._header__top_right_area > span {
+	background-color: transparent !important;
+	border: 1px solid #444444;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 3px;
+	margin: 0px 13px;
+	position: relative;
+}
+._header__top_right_area > span .price {
+	padding-left: 9px;
+	font-size: 14px;
+	font-family: "Lato-Bold";
+}
+._header__top_right_area > span .fa-shopping-cart {
+	padding: 0px 10px;
+}
+._header__top_right_area span.badge {
+	position: absolute;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	background-color: #c07d0a;
+	text-align: center;
+	line-height: 14px;
+	top: 8px;
+	left: -11px;
+	border-radius: 50%;
+}
+
+/* 03--> _header__area start.
+------------------------------
+*/
+#_header__area {
+}
+._header__logo {
+}
+._header__logo a {
+	outline: 0;
+}
+._header__logo img {
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+._header_access__area {
+}
+._header_access__area a {
+	border: 1px solid #aaaaaa;
+	color: #000;
+	text-transform: capitalize;
+	border-radius: 3px;
+	margin: 0px 8px;
+	outline: 0;
+	transition: 0.3s all ease-in;
+}
+._header_access__area a:hover {
+	color: #ffffff;
+	background-color: #000;
+	outline: 0;
+	text-decoration: none;
+}
+._header_access__area a.login__btn {
+}
+._header_access__area a.register__btn {
+	margin-right: 0px !important;
+}
+
+/* 04--> _menu__area section design.
+-------------------------------------
+*/
+
+#_menu__area {
+	margin-bottom: 22px;
+	margin-top: 15px;
+}
+#_menu__area ul {
+}
+#_menu__area ul li {
+	position: relative;
+}
+#_menu__area ul > li:last-child {
+	margin-right: 0px;
+	padding-right: 0px;
+}
+#_menu__area ul > li > a {
+	color: #000000;
+	font-family: "Poppins-Bold";
+	font-size: 20px;
+	text-transform: uppercase;
+	outline: 0;
+	padding: 15px 0px;
+	display: inline-block;
+}
+#_menu__area ul > li > a:hover {
+	outline: 0;
+	text-decoration: none;
+	position: relative;
+	color: #c07d0a;
+	transition: 0.3s all ease-in;
+}
+#_menu__area ul > li > a:hover::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 4px;
+	bottom: 0;
+	left: 0;
+	background-color: #c07d0a;
+}
+.dropdown_single_column {
+}
+.dropdown_menu_heading {
+	color: #000000;
+	text-transform: capitalize;
+	font-family: "Lato-Black";
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+.dropdown_list_items > li {
+	margin-right: 0 !important;
+	display: block !important;
+	padding-right: 0 !important;
+}
+.dropdown_list_items > li > a {
+	font-family: "Poppins-Regular" !important;
+	font-size: 12px !important;
+	display: inline-block !important;
+	color: #000000;
+	position: relative;
+	transition: left 1s ease-in !important;
+	padding: 8px 0px !important;
+}
+.dropdown_list_items > li > a span i.fa {
+	margin-right: 10px;
+}
+.dropdown_list_items > li > a:hover {
+	position: relative;
+	left: 10px;
+	transition: left 1s ease-in;
+}
+.dropdown_list_items > li > a:hover::before {
+	position: absolute;
+	width: 0px !important;
+	height: 0px !important;
+	background-color: transparent !important;
+}
+.dropdown_text {
+	position: relative;
+	margin-bottom: 30px;
+}
+.dropdown_text p {
+	font-family: "Poppins-Regular" !important;
+	font-size: 14px;
+	color: #000000;
+	line-height: 24px;
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+.dropdown__btn {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: "Poppins-Regular" !important;
+	background-color: #c07d0a;
+	padding: 15px 30px;
+	display: inline-block;
+	font-size: 12px;
+}
+.dropdown__btn:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.dropdown_bg {
+	/* position: relative; */
+}
+
+/* 05--> _slider__area section design 
+-------------------------------------
+*/
+#_slider__area {
+	background-color: #000000;
+}
+._slider_wrapper {
+	position: relative;
+}
+._slider_wrapper .owl-dots {
+	display: flex;
+	position: absolute;
+	bottom: 30px;
+	flex-direction: row;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+._slider_wrapper .owl-dots button.owl-dot {
+	width: 8px;
+	height: 25px;
+	background-color: #fff;
+	margin: 0 3px;
+	border-radius: 0;
+	padding: 0px 5px;
+}
+._slider_wrapper .owl-dots button.owl-dot:focus {
+	outline: 0 !important;
+}
+._slider_wrapper .owl-dots button.owl-dot.active {
+	height: 30px !important;
+	background-color: #ff0000 !important;
+}
+._slider_image {
+	background-image: url("../img/slider/slider-img-02.jpg");
+	background-position: 110% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #000000;
+}
+._slider_image {
+}
+._slider_image {
+}
+._slider_image {
+}
+._slider_contents {
+	padding-top: 100px;
+	padding-bottom: 165px;
+}
+._slider_contents h1 {
+	font-family: "Lato-Black";
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #ffffff;
+	line-height: 45px;
+	margin-bottom: 25px;
+}
+._slider_contents p {
+	font-family: "Poppins-Regular";
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 24px;
+	margin-bottom: 50px;
+}
+._slider_btn_area {
+}
+._slider_btn_area a {
+	font-family: "Poppins-Bold";
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #ffffff;
+	display: inline-block;
+	background-color: transparent;
+	transition: 0.3s all ease-in;
+}
+._slider_btn_area a:hover {
+	text-decoration: none;
+	outline: none;
+	background-color: #c07d0a;
+	color: #ffffff;
+}
+._slider_btn_area a._slider_btn {
+	border: 1px solid #525252;
+	color: #ffffff;
+	margin: 0px 10px;
+}
+._slider_btn_area a._slider_btn:first-child {
+	margin-left: 0 !important;
+}
+._slider_btn_area a._slider_btn:last-child {
+	margin-right: 0 !important;
+}
+/* 06--> _we_provide__area design. 
+--------------------------------------
+*/
+
+#_we_provide__area {
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+._we_provide_title {
+}
+._we_provide__option {
+	border: 1px dashed #999999;
+	padding: 45px 24px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+._we_provide__icon {
+}
+._we_provide__icon img {
+	margin-right: 20px;
+}
+._we_provide__text {
+}
+
+._we_provide__text h1 {
+	font-family: "Poppins-Bold";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 15px;
+}
+._we_provide__text p {
+	font-family: "Poppins-Regular";
+	font-size: 12px;
+	color: #000000;
+	line-height: 17px;
+}
+.equal__height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+.equal__height > [class*="col-"] {
+	display: flex;
+	flex-direction: column;
+	/* border: 1px dashed #999999; */
+}
+
+/* 07--> _catagories__area desing. 
+-----------------------------------
+*/
+#_catagories__area {
+	background-color: #f8f8f8;
+	padding: 60px 0px;
+}
+._catagories__section_title {
+}
+._catagories_navigation_menu {
+	border-bottom: 0 !important;
+	background-color: #ffffff;
+
+	box-shadow: 2px 2px 14px 4px #d6d6d6;
+	border-radius: 7px;
+}
+._catagories_navigation_menu a {
+	border: 0 !important;
+	text-transform: uppercase;
+	color: #414141 !important;
+	font-size: 12px !important;
+	font-family: "Lato-Bold";
+	position: relative;
+}
+._catagories_navigation_menu a:hover,
+._catagories_navigation_menu a.active {
+	color: #c07d0a !important;
+	transition: 0.3s ease-in;
+}
+._catagories_navigation_menu a:focus {
+	outline: 0;
+}
+._catagories_navigation_menu a::before {
+	position: absolute;
+	content: "";
+	background-color: #e3e3e3;
+	width: 2px;
+	height: 60%;
+	top: 50%;
+	right: 0;
+	transform: translate(0%, -50%);
+}
+._catagories_navigation_menu a:last-child::before {
+	width: 0;
+	background-color: transparent;
+	height: 0;
+	position: absolute;
+	content: "";
+}
+._catagories_filtered_image {
+}
+._catagories_filtered_image img {
+}
+._catagories_filtered_text {
+	position: relative;
+	padding: 100px 50px 75px 25px;
+}
+._catagories_filtered_text__wrapper {
+	position: relative;
+	z-index: 2;
+}
+._catagories_filtered_text.right-bg::before {
+	content: "";
+	background-image: url(../img/catagori/catagori-bg-img.png);
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 100%;
+	width: 80%;
+	z-index: 1;
+}
+._catagories_filtered_text.left-bg::before {
+	content: "";
+	background-image: url(../img/catagori/catagori-bg-img.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 100%;
+	width: 80%;
+	z-index: 1;
+}
+._catagories_filtered_text h2 {
+	color: #000000;
+	font-size: 24px;
+	font-family: "Poppins-Bold";
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+._catagories_filtered_text p {
+	font-family: "Poppins-Regular";
+	font-size: 14px;
+	color: #000000;
+	line-height: 24px;
+	margin-bottom: 35px;
+}
+._catagories_filtered_btn {
+	display: inline-block;
+	color: #000000;
+	border: 1px solid #999999;
+	padding: 25px 60px;
+	text-transform: uppercase;
+	font-family: "Poppins-Bold";
+	font-size: 13px;
+	background-color: #fff;
+}
+._catagories_filtered_btn:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* 08--> _service__area section. 
+
+*/
+
+#_service__area {
+	background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+._service_section__title {
+}
+._service_item_wrapper {
+	background-color: #f7f7f7;
+	width: 100%;
+	margin: 15px 0px;
+}
+._service_item__text {
+	padding: 15px 0px 15px 15px;
+}
+._service_item__text h2 {
+	font-family: "Poppins-Bold";
+	color: #000000;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+._service_item__text p {
+	font-family: "Poppins-Regular";
+	color: #000000;
+	font-size: 11px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+._service_item__btn {
+	padding: 20px 36px;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 11px;
+	font-family: "Poppins-Bold";
+	border: 1px solid #dddddd;
+	display: inline-block;
+	background-color: #fff;
+}
+._service_item__btn:hover {
+	color: #000000;
+	text-decoration: none;
+}
+._service_item__image {
+	padding-right: 15px;
+}
+._service_item__image img {
+}
+
+/* 09--> _about_jeweler__area section area. 
+-----------------------------------------
+*/
+#_about_jeweler__area {
+	padding: 125px 0px;
+}
+.bg__dark_img {
+	background-image: url("../img/about/about-bg-img.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #ededed;
+}
+._about_jeweler_slider_contents {
+}
+._about_jeweler_slider_contents h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Poppins-Bold";
+	margin-bottom: 65px;
+	position: relative;
+}
+._about_jeweler_slider_contents h1::before {
+	background-color: #c07d0a;
+	position: absolute;
+	content: "";
+	width: 60px;
+	height: 6px;
+	bottom: -30px;
+	left: 0;
+}
+._about_jeweler_slider_contents p {
+	font-family: "Poppins-Regular";
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 45px;
+}
+._about_jeweler_btn_area {
+}
+._about_jeweler_btn_area a {
+	font-family: "Poppins-Bold";
+	color: #ffffff;
+	background-color: transparent;
+	padding: 25px 56px;
+	border: 1px solid #626262;
+	margin: 0px 10px;
+	text-transform: uppercase;
+}
+._about_jeweler_btn_area a:hover {
+	color: #ffffff;
+	background-color: #c07d0a;
+	text-decoration: none;
+	outline: 0;
+}
+._about_jeweler_btn:first-child {
+	margin-left: 0px;
+}
+._about_jeweler_btn:last-child {
+	margin-right: 0px;
+}
+/* 10--> _promo_area section area. 
+
+*/
+
+#_promo_area {
+	padding: 60px 0px;
+	background-color: #fff;
+}
+._promo_section__contents {
+	background-color: #fff;
+	padding: 66px 60px;
+	box-shadow: 0px 4px 9px 4px #ebebeb;
+	margin: 50px 0px;
+}
+._promo_section__contents h2 {
+	font-family: "Poppins-Bold";
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 30px;
+}
+._promo_section__contents p {
+	margin-bottom: 50px;
+	color: #000000;
+	font-size: 14px;
+	font-family: "Poppins-Regular";
+	line-height: 24px;
+}
+._promo_section__btn_area {
+}
+._promo_section__btn_area a {
+	font-family: "Poppins-Bold";
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #000000;
+}
+._promo_section__btn {
+	padding: 25px 56px;
+	background-color: #fff;
+	border: 1px solid #ebebeb;
+	margin: 0px 10px;
+}
+._promo_section__btn:first-child {
+	margin-left: 0px;
+}
+._promo_section__btn:last-child {
+	margin-right: 0px;
+}
+._promo_section__btn_area a:hover {
+	background-color: #c07d0a;
+	color: #ffffff;
+	text-decoration: none;
+	outline: 0;
+	transition: 0.3s all ease-in;
+}
+._promo_section__image__bg {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-image: url("../img/promo/promo-bg-img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px;
+}
+/* 11--> _new_arival__area section area. 
+
+*/
+
+#_new_arival__area {
+}
+._new_arival_section__title {
+}
+._new_arival_items__wrapper {
+	background-color: #1d1d1d;
+	color: #ffffff;
+	padding: 25px;
+	border-right: 1px solid #ffffff;
+	margin: 15px 0px;
+}
+
+._item_condition {
+	color: #ffffff;
+	text-transform: capitalize;
+	padding: 15px 30px;
+	display: inline-block;
+	box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+._new_arival_items__contents {
+}
+._new_arival_items__contents img {
+}
+._new_arival_items__contents h2 {
+	font-size: 18px;
+	font-family: "Poppins-Bold";
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 25px 0px;
+}
+._new_arival_items__contents p {
+	color: #ffffff;
+	line-height: 24px;
+	font-size: 12px;
+	font-family: "Poppins-Regular";
+	margin-bottom: 30px;
+}
+._new_arival_contents_btn_area {
+}
+._new_arival_contents_btn {
+	border: 1px solid #464646;
+	background-color: #292929;
+	color: #ffffff;
+	padding: 15px 30px;
+	position: relative;
+	margin: 0px 3px;
+}
+._new_arival_contents_btn:first-child {
+	margin-left: 0;
+}
+._new_arival_contents_btn:last-child {
+	margin-right: 0;
+}
+._new_arival_contents_btn:hover {
+	color: #ffffff;
+	text-decoration: none;
+	outline: 0;
+}
+._new_arival_contents_btn:focus {
+	outline: 0;
+}
+._new_arival_contents_btn.arrow-btn {
+	padding: 23px 35px;
+}
+._new_arival_contents_btn span i.fa-heart {
+}
+._new_arival_contents_btn span i.fa-long-arrow-left {
+	position: absolute;
+	top: 12px;
+	left: 33px;
+}
+._new_arival_contents_btn span i.fa-long-arrow-right {
+	position: absolute;
+	top: 20px;
+	left: 22px;
+}
+._new_arival_contents_btn span i.fa-heart {
+}
+.add_to_cart_btn {
+	font-size: 10px;
+}
+._new_arival__check_more {
+	margin-bottom: 15px;
+}
+._new_arival__check_more a {
+	color: #000000;
+	font-size: 16px;
+	font-family: "Poppins-Medium";
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+._new_arival__check_more a:focus {
+	outline: 0;
+}
+._new_arival__check_more a:hover {
+	text-decoration: none;
+	outline: 0;
+}
+._new_arival__check_more a i.fa-long-arrow-down {
+	color: #16303f;
+	font-size: 26px;
+}
+/* 12--> _testimonials__area section area. 
+
+*/
+
+#_testimonials__area {
+	background-color: #f4f4f4;
+	background-image: url("../img/testimonials/testimonials-bg-img.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding-top: 65px;
+	padding-bottom: 35px;
+}
+._testimonial_slider {
+	margin-bottom: 75px;
+}
+._testimonial_slider .owl-dots {
+	display: flex;
+	position: absolute;
+	bottom: -50%;
+	flex-direction: row;
+	left: 50%;
+	transform: translate(-50%, -100%);
+}
+._testimonial_slider .owl-dots {
+}
+._testimonial_slider .owl-dots .owl-dot {
+	width: 8px;
+	height: 25px;
+	background-color: #000000;
+	margin: 0 3px;
+	border-radius: 0;
+	padding: 0px 5px;
+}
+._testimonial_slider .owl-dots .owl-dot:focus {
+	outline: 0;
+}
+._testimonial_slider .owl-dots .owl-dot.active {
+	height: 30px !important;
+	background-color: #ff0000 !important;
+}
+._testimonials__wrapper {
+}
+._testimonials_section__title ._section_sub_title {
+	font-size: 10px !important;
+}
+._testimonials_contents__wrapper {
+}
+._testimonials_contents__wrapper h2 {
+	color: #272727;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: "Lato-Bold";
+}
+._testimonials_contents__wrapper h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #000;
+	font-family: "Poppins-Regular";
+}
+._testimonials_contents__wrapper p {
+	font-size: 14px;
+	color: #000;
+	line-height: 25px;
+	margin-bottom: 35px;
+	font-family: "Poppins-Regular";
+}
+._testimonials_contents__wrapper i.fa-quote-left {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+/* 13--> _gifts__area section area. 
+-------------------------------------
+*/
+#_gifts__area {
+	background-color: #fff;
+	padding: 65px 0px;
+}
+._testimonials_section__title {
+}
+._gifts_items__wrapper {
+	background-color: #2a2a2a;
+	position: relative;
+	margin: 15px 0px;
+}
+._gifts_items__text {
+	padding: 45px 55px;
+}
+._gifts_items__text h1 {
+	color: #ffffff;
+	font-family: "Poppins-Bold";
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+._gifts_items__text p {
+	font-size: 18px;
+	font-family: "Poppins-Regular";
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+._gifts_items__text a {
+}
+._gifts_items__text a._gifts_items__btn {
+	border: 1px solid #636363;
+	padding: 20px 35px;
+	text-transform: uppercase;
+	font-family: "Poppins-Bold";
+	color: #ffffff;
+	font-size: 12px;
+	display: inline-block;
+}
+
+._gifts_items__image_01::before {
+	background-position: center;
+	position: absolute;
+	content: "";
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-image: url("../img/gift/gift-img-01.jpg");
+}
+._gifts_items__image_02::before {
+	background-position: center;
+	position: absolute;
+	content: "";
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-image: url("../img/gift/gift-img-02.jpg");
+}
+._gifts_items__image_03::before {
+	background-position: center;
+	position: absolute;
+	content: "";
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-image: url("../img/gift/gift-img-03.jpg");
+}
+._gifts_items__image_04::before {
+	background-position: center;
+	position: absolute;
+	content: "";
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-image: url("../img/gift/gift-img-04.jpg");
+}
+/* 14--> _footer__area section area. 
+
+*/
+#_footer__area {
+	background-color: #292929;
+	padding: 66px 0px;
+}
+._footer_column__wrapper {
+	margin: 15px 0px;
+}
+._footer_column__title {
+	margin-bottom: 40px;
+}
+._footer_column__title h2 {
+	font-family: "Poppins-SemiBold";
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+._footer_column_contents {
+}
+._footer_column_contents p {
+	color: #ffffff;
+	font-size: 16px;
+	font-family: "Poppins-Regular";
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+._footer_column_contents ul {
+}
+._footer_column_contents ul li {
+}
+._footer_column_contents ul li a {
+	font-size: 16px;
+	color: #ffffff;
+	font-family: "Poppins-Medium";
+	display: inline-block;
+	padding: 15px 0px;
+}
+._footer_column_contents ul li a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+._footer_social_links {
+}
+._footer_social_links span {
+	color: #ffffff;
+}
+._footer_social_links span:first-child {
+	font-style: italic;
+	margin-right: 25px;
+}
+._footer_social_links span a {
+}
+._footer_social_links span a i.fa {
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #000000;
+	border-radius: 50%;
+}
+._hr_spacer {
+	border: 1px dashed #ffffff;
+}
+.footer__bottom {
+	color: #ffffff;
+	font-family: "Poppins-Regular";
+	font-size: 13px;
+	display: inline-block;
+	padding: 20px 0px;
+}
+.footer__bottom span {
+}
+.footer__bottom span a {
+	color: #ffffff;
+	font-family: "Poppins-SemiBold";
+}
+.footer__bottom span a:hover {
+	text-decoration: none;
+}
+/* common css for all section */
+._section_title_area {
+	margin-bottom: 40px;
+}
+._section_main_title {
+	font-family: "Poppins-Bold";
+	color: #000000;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+._section_sub_title {
+	font-family: "Poppins-Regular";
+	color: #000000;
+	font-size: 14px;
+	line-height: 24px;
+}
+/* mobile responsive design (10)
+
+================================*/
+
+@media screen and (min-width: 320px) {
+	._header__top_left_area span {
+		font-size: 12px;
+	}
+	._header_access__area a {
+		padding: 10px 10px;
+		font-size: 14px;
+	}
+	._header_access__area a.register__btn {
+		padding: 10px 10px !important;
+	}
+	._slider_contents h1 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	._slider_btn_area a._slider_btn {
+		padding: 15px 25px;
+	}
+	._catagories_navigation_menu a {
+		padding: 15px 20px !important;
+	}
+	._promo_section__contents {
+		padding: 30px 33px;
+	}
+	._promo_section__btn {
+		padding: 10px 9px;
+	}
+	._about_jeweler_btn_area a {
+		padding: 10px 19px;
+	}
+	._catagories_filtered_btn {
+		padding: 25px 50px;
+	}
+	._new_arival_contents_btn {
+		padding: 15px 17px;
+	}
+	.add_to_cart_btn {
+	}
+	._testimonial_slider .owl-dots {
+		bottom: -20%;
+		transform: translate(-50%, 0%);
+	}
+	._footer_social_links span a i.fa {
+		width: 33px;
+		height: 30px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	._slider_contents h1 {
+		font-size: 35px;
+		line-height: 45px;
+	}
+	._slider_btn_area a._slider_btn {
+		padding: 24px 60px;
+	}
+	._catagories_navigation_menu a {
+		padding: 25px 43px !important;
+	}
+	._footer_social_links span a i.fa {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	._promo_section__btn {
+		padding: 25px 50px;
+	}
+	._about_jeweler_btn_area a {
+		padding: 25px 56px;
+	}
+}
+@media screen and (min-width: 576px) {
+	._header_access__area a {
+		padding: 16px 35px;
+		font-size: 18px;
+	}
+	._header_access__area a.register__btn {
+		margin-right: 0px !important;
+		padding: 16px 22px !important;
+	}
+	._slider_contents h1 {
+		font-size: 36px;
+		line-height: 45px;
+	}
+	._slider_btn_area a._slider_btn {
+		padding: 24px 60px;
+	}
+	._catagories_navigation_menu a {
+		padding: 25px 43px !important;
+	}
+	._footer_social_links span a i.fa {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	._promo_section__btn {
+		padding: 25px 56px;
+	}
+	._promo_section__btn {
+		margin: 10px 0px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	._header__top_left_area span {
+		font-size: 14px;
+	}
+	#_menu__area ul li {
+		padding-right: 15px;
+	}
+	.dropdown-menu {
+		min-width: 689px;
+	}
+	.dropdown_menu_position {
+	}
+	.dropdown_menu_position__home {
+		right: auto;
+		left: 0%;
+		-webkit-transform: translate(-0%, 0);
+		-o-transform: translate(-0%, 0);
+		transform: translate(-0%, 0);
+	}
+	.dropdown_menu_position__Jewellery {
+		right: auto;
+		left: 50%;
+		-webkit-transform: translate(-20%, 0);
+		-o-transform: translate(-20%, 0);
+		transform: translate(-20%, 0);
+	}
+	.dropdown_menu_position__Golden_Images {
+		right: auto;
+		left: 50%;
+		-webkit-transform: translate(-42%, 0);
+		-o-transform: translate(-42%, 0);
+		transform: translate(-42%, 0);
+	}
+	.dropdown_menu_position__Services {
+		right: auto;
+		left: 50%;
+		-webkit-transform: translate(-63%, 0);
+		-o-transform: translate(-63%, 0);
+		transform: translate(-63%, 0);
+	}
+	.dropdown_menu_position__Blog {
+		right: auto;
+		left: 50%;
+		-webkit-transform: translate(-76%, 0);
+		-o-transform: translate(-76%, 0);
+		transform: translate(-76%, 0);
+	}
+	.dropdown_menu_position__Contact_Us {
+		right: auto;
+		left: 50%;
+		-webkit-transform: translate(-90%, 0);
+		-o-transform: translate(-90%, 0);
+		transform: translate(-90%, 0);
+	}
+	._slider_btn_area a._slider_btn {
+		padding: 24px 30px;
+	}
+	._catagories_navigation_menu a {
+		padding: 25px 43px !important;
+	}
+	._footer_social_links span a i.fa {
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	._promo_section__btn {
+		margin: 0px 10px;
+	}
+	._service_item__btn {
+		padding: 12px 10px;
+	}
+	._about_jeweler_btn_area a {
+		padding: 15px 28px;
+	}
+	._promo_section__btn {
+		padding: 25px 35px;
+	}
+	._new_arival_contents_btn {
+		padding: 15px 5px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+}
+@media screen and (min-width: 992px) {
+	#_menu__area ul li {
+		padding-right: 63px;
+	}
+	._catagories_navigation_menu a {
+		padding: 25px 43px !important;
+	}
+	._service_item__btn {
+		padding: 20px 36px;
+	}
+	._about_jeweler_btn_area a {
+		padding: 25px 56px;
+	}
+	._promo_section__btn {
+		padding: 25px 56px;
+	}
+	._new_arival_contents_btn {
+		padding: 15px 25px;
+	}
+	._footer_social_links span a i.fa {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+	}
+	._testimonial_slider .owl-dots {
+		bottom: -35%;
+		transform: translate(-50%, 0%);
+	}
+}
+@media screen and (min-width: 1170px) {
+	._we_provide__option {
+		padding: 45px 20px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	._header__top_left_area span {
+		font-size: 16px;
+	}
+	._header_access__area a {
+		padding: 16px 35px;
+		font-size: 18px;
+	}
+	._header_access__area a.register__btn {
+		margin-right: 0px !important;
+		padding: 16px 22px !important;
+	}
+	#_menu__area ul li {
+		padding-right: 99px;
+	}
+	._slider_contents h1 {
+		font-size: 36px;
+	}
+	._slider_btn_area a._slider_btn {
+		padding: 24px 60px;
+	}
+	._catagories_navigation_menu a {
+		padding: 25px 43px !important;
+	}
+	._about_jeweler_btn_area a {
+		padding: 25px 56px;
+	}
+	._promo_section__contents {
+		padding: 66px 60px;
+	}
+	._promo_section__btn {
+		padding: 25px 56px;
+	}
+	._testimonial_slider .owl-dots {
+		bottom: -50%;
+
+		transform: translate(-50%, -100%);
+	}
+	._footer_social_links span a i.fa {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	._we_provide__option {
+		padding: 45px 24px;
+	}
+}
