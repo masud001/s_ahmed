@@ -14,8 +14,8 @@ $(document).ready(function () {
 	owl.owlCarousel({
 		loop: true,
 		nav: false,
-		margin: 17,
-		autoHeight: true,
+		margin: 20,
+		// autoHeight: true,
 		dots: true,
 		navRewind: false,
 		responsiveClass: true,
@@ -38,11 +38,11 @@ $(document).ready(function () {
 	testimonials.owlCarousel({
 		loop: true,
 		nav: false,
-		dots: true,
-		responsiveClass: true,
-
 		margin: 0,
+		autoHeight: true,
+		dots: true,
 		navRewind: false,
+		responsiveClass: true,
 		responsive: {
 			0: {
 				items: 1,
