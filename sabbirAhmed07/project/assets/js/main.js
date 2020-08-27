@@ -1,45 +1,12 @@
 $(document).ready(function () {
-	// When your page loads
-	$(function () {
-		// When the toggle areas in your navbar are clicked, toggle them
-		$("#search-button, #search-icon").click(function (e) {
-			e.preventDefault();
-			$("#search-button, #search-form").toggle();
-		});
-	});
-
-	// this carousel for about us section
-	// ==================================
-	var owl = $("._slider_wrapper");
-	owl.owlCarousel({
-		loop: true,
-		nav: false,
-		margin: 20,
-		// autoHeight: true,
-		dots: true,
-		navRewind: false,
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 1,
-			},
-			600: {
-				items: 1,
-			},
-			1000: {
-				items: 1,
-			},
-		},
-	});
-
 	// this carousel for testimonials section
 	// ========================================
-	var testimonials = $("._testimonial_slider");
+	var testimonials = $(".testimonial_wrapper");
 	testimonials.owlCarousel({
 		loop: true,
 		nav: false,
 		margin: 0,
-		autoHeight: true,
+		// autoHeight: true,
 		dots: true,
 		navRewind: false,
 		responsiveClass: true,
