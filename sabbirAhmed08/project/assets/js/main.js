@@ -1,17 +1,77 @@
 $(document).ready(function () {
 	// this carousel for testimonials section
 	// ========================================
-	var testimonials = $(".testimonial_wrapper");
+	var testimonials = $(".home-slider");
 	testimonials.owlCarousel({
-		loop: true,
-		nav: false,
+		loop: false,
+		nav: true,
+		navText: [
+			"<span class='previous-btn'> <i class='fa fa-long-arrow-left' aria-hidden='true'></i> previous</span>",
+			"<span  class='next-btn'>next <i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>",
+		],
 		margin: 0,
-		// autoHeight: true,
+		autoHeight: true,
 		dots: true,
 		navRewind: false,
 		responsiveClass: true,
 		responsive: {
 			0: {
+				items: 1,
+			},
+			600: {
+				items: 1,
+			},
+			1000: {
+				items: 1,
+			},
+		},
+	});
+	// this carousel for testimonials section
+	// ========================================
+	var testimonials = $(".catagori-slider");
+	testimonials.owlCarousel({
+		loop: true,
+		nav: true,
+		navText: [
+			"<span class='catagori-previous-btn'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>",
+			"<span  class='catagori-next-btn'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>",
+		],
+		margin: 50,
+		// autoHeight: true,
+		dots: false,
+		navRewind: true,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			300: {
+				items: 1,
+			},
+			600: {
+				items: 2,
+			},
+			1000: {
+				items: 3,
+			},
+		},
+	});
+	// this carousel for testimonials section
+	// ========================================
+	var testimonials = $(".testimonial-slider");
+	testimonials.owlCarousel({
+		loop: true,
+		nav: false,
+		margin: 0,
+		// autoHeight: true,
+		dots: false,
+		navRewind: false,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			300: {
 				items: 1,
 			},
 			600: {
