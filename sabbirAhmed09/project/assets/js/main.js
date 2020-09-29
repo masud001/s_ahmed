@@ -1,14 +1,14 @@
 $(document).ready(function () {
 	// this carousel for testimonials section
 	// ========================================
-	var testimonials = $(".home-slider");
+	var testimonials = $(".slider-1");
 	testimonials.owlCarousel({
-		loop: false,
-		nav: true,
-		navText: [
-			"<span class='previous-btn'> <i class='fa fa-long-arrow-left' aria-hidden='true'></i> previous</span>",
-			"<span  class='next-btn'>next <i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>",
-		],
+		loop: true,
+		nav: false,
+		// navText: [
+		// 	"<span class='previous-btn'> <i class='fa fa-long-arrow-left' aria-hidden='true'></i> previous</span>",
+		// 	"<span  class='next-btn'>next <i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>",
+		// ],
 		margin: 0,
 		autoHeight: true,
 		dots: true,
@@ -28,17 +28,17 @@ $(document).ready(function () {
 	});
 	// this carousel for testimonials section
 	// ========================================
-	var testimonials = $(".catagori-slider");
+	var testimonials = $(".testimonials");
 	testimonials.owlCarousel({
 		loop: true,
-		nav: true,
-		navText: [
-			"<span class='catagori-previous-btn'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>",
-			"<span  class='catagori-next-btn'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>",
-		],
-		margin: 50,
+		nav: false,
+		// navText: [
+		// 	"<span class='catagori-previous-btn'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>",
+		// 	"<span  class='catagori-next-btn'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>",
+		// ],
+		margin: 0,
 		// autoHeight: true,
-		dots: false,
+		dots: true,
 		navRewind: true,
 		responsiveClass: true,
 		responsive: {
@@ -49,20 +49,24 @@ $(document).ready(function () {
 				items: 1,
 			},
 			600: {
-				items: 2,
+				items: 1,
 			},
 			1000: {
-				items: 3,
+				items: 1,
 			},
 		},
 	});
 	// this carousel for testimonials section
 	// ========================================
-	var testimonials = $(".testimonial-slider");
+	var testimonials = $(".slider-2");
 	testimonials.owlCarousel({
 		loop: true,
-		nav: false,
-		margin: 0,
+		nav: true,
+		navText: [
+			"<span class='catagori-previous-btn'><i class='fa fa-angle-left' aria-hidden='true'></i></span>",
+			"<span  class='catagori-next-btn'><i class='fa fa-angle-right' aria-hidden='true'></i></span>",
+		],
+		margin: 30,
 		// autoHeight: true,
 		dots: false,
 		navRewind: false,
@@ -78,8 +82,14 @@ $(document).ready(function () {
 				items: 1,
 			},
 			1000: {
-				items: 1,
+				items: 3,
 			},
+		},
+	});
+
+	var mixer = mixitup(".products", {
+		selectors: {
+			control: "[data-mixitup-control]",
 		},
 	});
 
