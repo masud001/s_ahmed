@@ -1,8 +1,8 @@
 /* 
 01-->  header top section start
-02-->  header and slider area .
-03-->  who we are area START.
-04--> lookbook area START .
+02-->   navigation menu and logo start 
+03-->  search bar and shopping icons start 
+04--> hero slider area start 
 05-->  OUR Collections area START.
 06--> comback area start 
 07-->  slider 1 start .
@@ -107,23 +107,142 @@ img {
 }
 .header__top_list ul li a:hover {
 }
+
+/* 02-->   navigation menu and logo start  
+-------------------------------------------
+*/
+.navigation__menu {
+}
+.navigation__menu ul {
+}
+.navigation__menu ul li {
+}
+
+.navigation__menu ul li a {
+	color: #000000;
+	font-family: "lato-Bold";
+	font-size: 18px;
+	text-transform: capitalize;
+	display: inline-block;
+}
+/* 03-->  search bar and shopping icons start   
+-----------------------------------------------
+*/
+#search__section {
+}
+.shopping__icons {
+	position: relative;
+}
+.shopping__icons img {
+}
+.shopping__icons span.badge {
+	position: absolute;
+	top: -6px;
+	right: -7px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #0089cf;
+	text-align: center;
+	line-height: 19px;
+	font-size: 9px;
+	color: #ffffff;
+	font-family: "lato-Regular";
+}
+#search__section .input-group-prepend .input-group-text {
+	background-color: #051b3b;
+	font-family: "lato-Bold";
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: capitalize;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	padding-left: 26px;
+	padding-right: 26px;
+	border-top-right-radius: 30px !important;
+	border-bottom-right-radius: 30px !important;
+	z-index: 1;
+}
+#search__section .form-control {
+	left: -30px;
+	padding-left: 40px;
+	border-right: 0;
+}
+#search__section .input-group-append .input-group-text {
+	margin-left: -41px;
+	background-color: transparent;
+	border-left: 0;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+/* 04--> hero slider area start  
+-----------------------------------
+*/
+#hero__slider {
+}
+.slider__bg_img {
+	background-image: url("../img/hero-slider/slider-img-01.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #ededed;
+	background-clip: padding-box;
+}
+.hero__contents {
+	padding: 100px 0px;
+}
+
+.hero__contents .h6 {
+	margin: 0;
+	padding: 0;
+	color: #2a2574;
+	font-size: 12.45px;
+}
+.hero__contents .h1 {
+	margin: 0;
+	padding: 0;
+	color: #2a2574;
+	font-size: 83.24px;
+	font-family: "lato-Black";
+}
+.hero__contents .h1 span {
+	font-size: 41.62px;
+}
+.hero__contents .h2 {
+	color: #2a2574;
+	margin: 0;
+	padding: 0;
+	font-size: 48.3px;
+}
+.hero__contents .h4 {
+	color: #252525;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-family: "lato-Black";
+}
+
 ::placeholder {
 	/* Chrome, Firefox, Opera, Safari 10.1+ */
-	color: #333333;
-	font-style: italic;
+	color: #555555;
+	font-family: "lato-Bold";
+	font-size: 18px;
 	opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder {
 	/* Internet Explorer 10-11 */
-	color: #333333;
-	font-style: italic;
+	color: #555555;
+	font-family: "lato-Bold";
+	font-size: 18px;
 }
 
 ::-ms-input-placeholder {
 	/* Microsoft Edge */
-	color: #333333;
-	font-style: italic;
+	color: #555555;
+	font-family: "lato-Bold";
+	font-size: 18px;
 }
 
 /* mobile responsive design (10)
@@ -133,6 +252,9 @@ img {
 @media screen and (min-width: 320px) {
 	.header__top_list ul li a {
 		padding: 10px 15px;
+	}
+	.navigation__menu ul li a {
+		padding: 15px 0px;
 	}
 }
 @media screen and (min-width: 480px) {
@@ -147,6 +269,15 @@ img {
 	.header__top_list ul li:last-child a {
 		margin-right: 0px;
 		padding-right: 0px;
+	}
+	.navigation__menu ul li a {
+		padding: 10px 20px;
+	}
+	.navigation__menu ul li:last-child a {
+		padding-right: 0;
+	}
+	.navigation__menu ul li:first-child a {
+		padding-left: 0;
 	}
 }
 @media screen and (min-width: 1170px) {
