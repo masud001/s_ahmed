@@ -1,45 +1,14 @@
 $(document).ready(function () {
 	// this carousel for testimonials section
 	// ========================================
-	var testimonials = $(".slider-1");
-	testimonials.owlCarousel({
+	var sliderOne = $(".deal__zone_slider");
+	sliderOne.owlCarousel({
 		loop: true,
-		nav: false,
-		// navText: [
-		// 	"<span class='previous-btn'> <i class='fa fa-long-arrow-left' aria-hidden='true'></i> previous</span>",
-		// 	"<span  class='next-btn'>next <i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>",
-		// ],
-		margin: 0,
+
+		margin: 30,
 		autoHeight: true,
-		dots: true,
+		dots: false,
 		navRewind: false,
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 1,
-			},
-			600: {
-				items: 1,
-			},
-			1000: {
-				items: 1,
-			},
-		},
-	});
-	// this carousel for testimonials section
-	// ========================================
-	var testimonials = $(".testimonials");
-	testimonials.owlCarousel({
-		loop: true,
-		nav: false,
-		// navText: [
-		// 	"<span class='catagori-previous-btn'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></span>",
-		// 	"<span  class='catagori-next-btn'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></span>",
-		// ],
-		margin: 0,
-		// autoHeight: true,
-		dots: true,
-		navRewind: true,
 		responsiveClass: true,
 		responsive: {
 			0: {
@@ -49,25 +18,26 @@ $(document).ready(function () {
 				items: 1,
 			},
 			600: {
-				items: 1,
+				items: 2,
 			},
 			1000: {
-				items: 1,
+				items: 4,
+				nav: true,
+				navText: [
+					"<span class='catagori-previous-btn'><i class='fa fa-angle-left' aria-hidden='true'></i></span>",
+					"<span  class='catagori-next-btn'><i class='fa fa-angle-right' aria-hidden='true'></i></span>",
+				],
 			},
 		},
 	});
 	// this carousel for testimonials section
 	// ========================================
-	var testimonials = $(".slider-2");
-	testimonials.owlCarousel({
+	var sliderTwo = $(".testimonial__slider");
+	sliderTwo.owlCarousel({
 		loop: true,
-		nav: true,
-		navText: [
-			"<span class='catagori-previous-btn'><i class='fa fa-angle-left' aria-hidden='true'></i></span>",
-			"<span  class='catagori-next-btn'><i class='fa fa-angle-right' aria-hidden='true'></i></span>",
-		],
-		margin: 30,
-		// autoHeight: true,
+		nav: false,
+		margin: 0,
+		autoHeight: true,
 		dots: false,
 		navRewind: false,
 		responsiveClass: true,
@@ -82,8 +52,20 @@ $(document).ready(function () {
 				items: 1,
 			},
 			1000: {
-				items: 3,
+				items: 1,
 			},
 		},
 	});
+
+	// faq section plus minus icon
+	function toggleIcon(e) {
+		$(e.target)
+			.prev(".panel-heading")
+			.find(".more-less")
+			.toggleClass("fa-plus fa-minus");
+	}
+	$(".panel-group").on("hidden.bs.collapse", toggleIcon);
+	$(".panel-group").on("shown.bs.collapse", toggleIcon);
+
+	/*-----------END-------------- */
 });
