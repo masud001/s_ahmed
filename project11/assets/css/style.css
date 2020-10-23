@@ -241,7 +241,7 @@ img {
 	height: 100px;
 }
 #service__section .service_image {
-	padding: 20px;
+	padding: 15px;
 	border-radius: 50%;
 	background-color: #fff;
 	box-shadow: 0px 0px 10px 3px #fdf5f5;
@@ -429,12 +429,12 @@ img {
 	border-bottom: 1px solid #ffeecd;
 	padding: 35px 25px;
 }
-.single_work_step > p {
+.single_work_step p {
 	font-family: "Montserrat-Medium";
 	font-size: 18px;
 	color: #000000;
 }
-.single_work_step_title > p {
+.single_work_step_title p.h3 {
 	color: #292929;
 	font-size: 24px;
 	text-transform: capitalize;
