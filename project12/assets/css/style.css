@@ -1,5 +1,11 @@
-/* 
+/*
+  	Theme Name: Name - JAPANIES TERTRURENT
+  	Contact: 
+ 	Description: TESTRURENT HTML5 TEMPLATE
+  	Version: 1.0
+  */
 
+/* 
 01-->   navigation menu and logo start 
 03-->  search bar and shopping icons start 
 04--> hero slider area start 
@@ -169,7 +175,7 @@ img {
 }
 .header__section.section__bg {
 	background-color: var(--theme-color);
-	background-image: url("https://picsum.photos/1080/484");
+	background-image: url("../img/background-img/hero-bg-img01.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -243,6 +249,7 @@ img {
 	background-size: contain;
 	height: 346px;
 	position: relative;
+	left: -32px;
 }
 .single__item {
 	margin-bottom: 35px;
@@ -339,18 +346,23 @@ img {
 	background-repeat: no-repeat;
 	background-color: var(--theme-color);
 	border-radius: 15px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.traditional_menu__items:hover {
+	box-shadow: 3px 4px 10px 2px #211d1e6e;
 }
 .traditional_menu__items.item_bg_1 {
-	background-image: url("https://picsum.photos/466/215");
+	background-image: url("../img/traditional-japanis-img/hokke_hiraki@2x2.jpg");
 }
 .traditional_menu__items.item_bg_2 {
-	background-image: url("https://picsum.photos/466/215");
+	background-image: url("../img/traditional-japanis-img/hokke_hiraki@2x2-02.jpg");
 }
 .traditional_menu__items.item_bg_3 {
-	background-image: url("https://picsum.photos/466/215");
+	background-image: url("../img/traditional-japanis-img/hokke_hiraki@2x2-03.jpg");
 }
 .traditional_menu__items.item_bg_4 {
-	background-image: url("https://picsum.photos/466/215");
+	background-image: url("../img/traditional-japanis-img/hokke_hiraki@2x2-04.jpg");
 }
 /* promo section
 ------------------------
@@ -398,10 +410,8 @@ img {
 .reservation__section .bg_image {
 	position: absolute;
 	top: 50%;
-	left: 0;
-	height: 50%;
+	left: -8%;
 	transform: translate(0%, -50%);
-	width: 100px;
 }
 .reservation__section .section__title {
 	margin-bottom: 30px;
@@ -468,7 +478,7 @@ input[value="Book Now"] {
 --------------------------------
 */
 .tab_content__section.section__bg {
-	background-image: url("../img/background-img/bg-img-01.png");
+	background-image: url("../img/tab-content-img/Mask Group 1@2x2.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -705,11 +715,11 @@ input[value="Book Now"] {
 --------------------------------
 */
 .latest_news__section.section__bg {
-	background-image: url("https://picsum.photos/1366/583");
+	background-image: url("../img/background-img/Image\ 6@2x.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: var(--theme-color);
+	/* background-color: var(--theme-color); */
 }
 .latest_news__section {
 	padding-top: 180px;
@@ -744,6 +754,7 @@ input[value="Book Now"] {
 	color: #707070;
 	font-size: 20px;
 	margin-bottom: 7px;
+	cursor: pointer;
 }
 .news_text {
 	font-size: 14px;
@@ -770,6 +781,7 @@ input[value="Book Now"] {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 99;
+	cursor: pointer;
 }
 .overlay_icons img {
 	width: 100%;
@@ -811,6 +823,9 @@ input[value="Book Now"] {
 	font-family: var(--Lora-Regular);
 	font-size: 14px;
 	margin-bottom: 23px;
+}
+.footer__logo img {
+	cursor: pointer;
 }
 .hr_line {
 	background-color: var(--theme-color);

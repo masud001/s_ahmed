@@ -34,6 +34,7 @@ $(document).ready(function () {
 		items: 2,
 		loop: true,
 		autoHeight: true,
+		autoplay: true,
 		lazyLoad: true,
 		dots: false,
 		nav: false,
