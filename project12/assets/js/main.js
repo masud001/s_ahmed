@@ -31,31 +31,14 @@ $(document).ready(function () {
 	var sliderTwo = $(".carousel__wrapper");
 	sliderTwo.owlCarousel({
 		center: true,
-		loop: true,
-		// autoplay: true,
 		items: 2,
-		autoHeight: true,
-		lazyLoad: true,
-		dots: false,
-		nav: false,
-		margin: 28,
+		loop: true,
+		margin: 10,
 		responsive: {
-			0: {
-				items: 1,
-			},
-			300: {
-				items: 1,
-			},
 			600: {
-				items: 2,
+				items: 4,
 			},
-			900: {
-				items: 3,
-			},
-			1000: {
-				items: 5,
-			},
-			1300: {
+			992: {
 				items: 6,
 			},
 		},

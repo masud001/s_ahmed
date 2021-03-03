@@ -185,7 +185,6 @@ img {
 .main_menu li {
 }
 .main_menu li a {
-	color: var(--primary-color);
 	font-size: 15px;
 	font-family: var(--Lora);
 	font-weight: 400;
@@ -244,28 +243,22 @@ img {
 	position: relative;
 	/* display: inline-block; */
 	background-image: url("../img/icons/shape-bg-img.png");
-
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 346px;
 	position: relative;
-	left: -32px;
 }
 .single__item {
-	margin-bottom: 35px;
 	position: relative;
 	width: 240px;
 }
 .items__one {
-	left: 40px;
 	position: relative;
 }
 .items__two {
-	left: 96px;
 	position: relative;
 }
 .items__three {
-	left: 170px;
 	position: relative;
 }
 
@@ -374,6 +367,12 @@ img {
 }
 .promo__section.section__color {
 	background-color: #a12519;
+}
+.promo__section.section__bg {
+	background-image: url("../img/background-img/promo-bg-img.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .promo_contents {
 	padding: 50px 0px;
@@ -498,10 +497,10 @@ input[value="Book Now"] {
 }
 .tab_icon_wrapper {
 	text-align: center;
-
 	border-radius: 50%;
 	background-color: var(--theme-color);
-	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .tab_icon_wrapper img {
 	width: 100%;
@@ -605,33 +604,36 @@ input[value="Book Now"] {
 	padding: 13px 17px;
 	cursor: pointer;
 }
-.flex_img_size_1 {
+.gallery__image_1 {
 	width: 100%;
-	height: 192px;
 }
-.flex_img_size_2 {
+.gallery__image_2 {
 	width: 100%;
-	height: 291px;
 }
-.flex_img_size_3 {
+.gallery__image_3 {
 	width: 100%;
-	height: 297px;
 }
-.flex_img_size_4 {
+.gallery__image_4 {
 	width: 100%;
-	height: 189px;
 }
-.flex_img_size_5 {
+.gallery__image_5 {
 	width: 100%;
-	height: 192px;
 }
-.flex_img_size_6 {
+.gallery__image_6 {
 	width: 100%;
-	height: 291px;
 }
+.gallery__image_7 {
+	width: 100%;
+}
+.flex_img_size_1,
+.flex_img_size_2,
+.flex_img_size_3,
+.flex_img_size_4,
+.flex_img_size_5,
+.flex_img_size_6,
 .flex_img_size_7 {
 	width: 100%;
-	height: 291px;
+	height: 100%;
 }
 /* testimonials section 
 -----------------------------
@@ -708,7 +710,6 @@ input[value="Book Now"] {
 	height: 100% !important;
 	position: relative;
 	top: -75px;
-	left: -45px;
 	z-index: 5;
 }
 /* latest news section 
@@ -856,12 +857,18 @@ input[value="Book Now"] {
 ================================================================================================*/
 
 @media screen and (min-width: 320px) {
+	.main_menu li a {
+		color: var(--theme-color);
+	}
 	.tab_content__section.section__bg {
 		margin-top: 50px;
 	}
 	.tab__menu {
 		position: relative;
 		top: -27px;
+	}
+	.tab_icon_wrapper {
+		margin-bottom: 15px;
 	}
 	.tab_icon_wrapper {
 		width: 50px;
@@ -879,6 +886,27 @@ input[value="Book Now"] {
 		flex: 100%;
 		max-width: 100%;
 	}
+	.gallery__image_1 {
+		height: 192px;
+	}
+	.gallery__image_2 {
+		height: 291px;
+	}
+	.gallery__image_3 {
+		height: 297px;
+	}
+	.gallery__image_4 {
+		height: 189px;
+	}
+	.gallery__image_5 {
+		height: 192px;
+	}
+	.gallery__image_6 {
+		height: 291px;
+	}
+	.gallery__image_7 {
+		height: 291px;
+	}
 	.flex__column.flex__column_half {
 		flex: 100%;
 		max-width: 100%;
@@ -895,8 +923,32 @@ input[value="Book Now"] {
 	}
 }
 @media screen and (min-width: 400px) {
+	.tab__menu li {
+		padding: 0px 10px;
+	}
 	.tab__menu li a h4 {
-		font-size: 14px;
+		font-size: 10px;
+	}
+	.gallery__image_1 {
+		height: 250px;
+	}
+	.gallery__image_2 {
+		height: 250px;
+	}
+	.gallery__image_3 {
+		height: 250px;
+	}
+	.gallery__image_4 {
+		height: 250px;
+	}
+	.gallery__image_5 {
+		height: 250px;
+	}
+	.gallery__image_6 {
+		height: 250px;
+	}
+	.gallery__image_7 {
+		height: 250px;
 	}
 }
 @media screen and (min-width: 576px) {
@@ -910,27 +962,57 @@ input[value="Book Now"] {
 		line-height: 24px;
 		padding: 20px;
 	}
+	.tab_icon_wrapper {
+		margin-bottom: 30px;
+	}
 	.tab__menu li {
 		padding: 0px 9px;
 	}
 	.tab__menu li a h4 {
-		font-size: 16px;
+		font-size: 13px;
 	}
 	.tab_content__section.section__bg {
 		margin-top: 100px;
 	}
 	.flex__column_half {
-		flex: 50%;
-		max-width: 50%;
+		flex: 100%;
+		max-width: 100%;
+	}
+	.gallery__image_1 {
+		height: 291px;
+	}
+	.gallery__image_2 {
+		height: 291px;
+	}
+	.gallery__image_3 {
+		height: 291px;
+	}
+	.gallery__image_4 {
+		height: 291px;
+	}
+	.gallery__image_5 {
+		height: 292px;
+	}
+	.gallery__image_6 {
+		height: 291px;
+	}
+	.gallery__image_7 {
+		height: 291px;
 	}
 	.testimonials__contents_wrapper {
 		padding-top: 15px;
 		padding-bottom: 15px;
 		padding-left: 15px;
-		padding-right: 15px;
+		padding-right: 33px;
+	}
+	.testimony_avater__image img {
+		left: -30px;
 	}
 }
 @media screen and (min-width: 768px) {
+	.main_menu li a {
+		color: var(--primary-color);
+	}
 	.tab__menu li {
 		padding: 0px 22px;
 	}
@@ -940,9 +1022,33 @@ input[value="Book Now"] {
 		line-height: 51px;
 		padding: 25px;
 	}
+	.tab__menu li a h4 {
+		font-size: 16px;
+	}
 	.flex__column {
 		flex: 50%;
 		max-width: 50%;
+	}
+	.gallery__image_1 {
+		height: 192px;
+	}
+	.gallery__image_2 {
+		height: 291px;
+	}
+	.gallery__image_3 {
+		height: 297px;
+	}
+	.gallery__image_4 {
+		height: 189px;
+	}
+	.gallery__image_5 {
+		height: 192px;
+	}
+	.gallery__image_6 {
+		height: 291px;
+	}
+	.gallery__image_7 {
+		height: 291px;
 	}
 	.flex__column.flex__column_half {
 		flex: 100%;
@@ -954,10 +1060,28 @@ input[value="Book Now"] {
 		padding-left: 35px;
 		padding-right: 70px;
 	}
+	.testimony_avater__image img {
+		left: -45px;
+	}
 }
 @media screen and (min-width: 960px) {
 }
 @media screen and (min-width: 992px) {
+	.parallelogram_area {
+		left: -51px;
+	}
+	.single__item {
+		margin-bottom: 17px;
+	}
+	.items__one {
+		left: 35px;
+	}
+	.items__two {
+		left: 80px;
+	}
+	.items__three {
+		left: 135px;
+	}
 	.tab_icon_wrapper {
 		width: 102px;
 		height: 102px;
@@ -980,4 +1104,19 @@ input[value="Book Now"] {
 @media screen and (min-width: 1170px) {
 }
 @media screen and (min-width: 1200px) {
+	.parallelogram_area {
+		left: -32px;
+	}
+	.single__item {
+		margin-bottom: 35px;
+	}
+	.items__one {
+		left: 40px;
+	}
+	.items__two {
+		left: 96px;
+	}
+	.items__three {
+		left: 170px;
+	}
 }
