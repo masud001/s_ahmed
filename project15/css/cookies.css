@@ -1,0 +1,40 @@
+#cookies-section {
+	position: fixed;
+	bottom: 50px;
+	background-color: #000;
+	color: #fff;
+	max-width: 320px;
+	padding: 15px;
+	left: 25px;
+	z-index: 2;
+}
+
+.cookies-content {
+	border: 2px dashed #fff;
+	padding: 15px;
+}
+.cookies-content h1 {
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.cookies-content p {
+	text-align: justify;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+button.item,
+a.item {
+	border: 1px dashed #fff;
+	background-color: transparent;
+	color: #fff;
+	padding: 5px 15px;
+	font-size: 12px;
+}
+button.item:hover,
+a.item:hover {
+	background-color: #fff;
+	color: #000;
+	border: 1px dashed #fff;
+	transition: 0.4s all ease-in;
+}
