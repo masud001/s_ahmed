@@ -662,3 +662,88 @@ input.navbar__search_input {
 	font-weight: 300;
 	color: rgba(78, 70, 70, 0.5);
 }
+
+/* program page  */
+.page_main_body {
+	background-color: #d7e0e5;
+	min-height: 500px;
+}
+
+.page__header {
+	display: block;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.page__header h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.breadcrumb_bg_color {
+	background-color: #b3b3b3;
+	border-bottom: 10px solid #b9c2c7;
+}
+.breadcrumb-item a {
+	text-decoration: none;
+	color: #4d4d4d;
+}
+.programs_card_wrapper .programs-title {
+	color: #fff;
+	background-color: #fe0000;
+	font-size: 30px;
+	padding: 5px 25px;
+	border-radius: 10px;
+}
+.programs_card_wrapper .card-header {
+	border-bottom: 1px solid #d6d6d6;
+}
+.programs_card_wrapper .clicks-dots i {
+	font-size: 35px;
+	color: #fff;
+	cursor: pointer;
+}
+.programs_card_wrapper {
+	background-color: #ebe7e7;
+	min-height: 300px;
+}
+
+.badge__area {
+	display: inline-block;
+}
+.badge__area button {
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	background-color: #fe0000;
+	font-size: 20px;
+	padding: 5px 25px;
+	border-radius: 10px;
+	font-family: 'Co Headline W';
+}
+
+.single-program-card {
+	border-radius: 25px;
+}
+
+.single-program-card .card-image {
+	max-height: 200px;
+	height: 200px;
+}
+
+.single-program-card .card-image img {
+	border-radius: 25px;
+	width: 100%;
+	height: 100%;
+}
