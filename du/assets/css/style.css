@@ -294,8 +294,8 @@ h1 {
 /* card section  */
 
 .card__section {
-	margin-top: 135px;
-	margin-bottom: 100px;
+	margin-top: 45px;
+	margin-bottom: 50px;
 }
 
 .card__area {
@@ -345,6 +345,7 @@ h1 {
 	margin-bottom: 0;
 	text-decoration: none;
 	font-weight: 700;
+	font-family: 'Co Headline W';
 }
 .card__icon i {
 	color: #fff;
@@ -570,6 +571,7 @@ footer#footer > div {
 	color: #fff;
 	position: relative;
 	z-index: 999;
+	top: 3px;
 }
 .navbar__home_button i:hover {
 	color: red !important;
@@ -628,4 +630,35 @@ input.navbar__search_input {
 }
 .card-subtitle {
 	font-family: 'Co Headline W';
+}
+
+/* index section 
+----------------
+*/
+.index_brands_grid_area {
+}
+.index_brands_grid_area .image {
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 1;
+	border-radius: 15px;
+	display: grid;
+	place-items: center;
+}
+
+.index_brands_grid_area figcaption {
+	margin-top: 15px;
+}
+.index_brands_grid_area figcaption strong {
+	text-transform: capitalize;
+	font-family: 'Co Headline W';
+	color: #4e4646;
+	font-size: 18px;
+}
+.index_brands_grid_area figcaption p {
+	font-family: 'Co Headline W';
+	font-size: 16px;
+	font-weight: 300;
+	color: rgba(78, 70, 70, 0.5);
 }

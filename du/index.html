@@ -21,6 +21,7 @@
 		<link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<link rel="stylesheet" href="./assets/css/style02.css" />
+		<link rel="stylesheet" href="./assets/css/responsive.css" />
 	</head>
 	<body>
 		<div class="home">
@@ -390,6 +391,25 @@
 			</div>
 		</div>
 
+		<div class="alert_section mt-3 px-lg-5">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="alert alert-warning alert-dismissible fade show" role="alert">
+							<strong>Holy guacamole!</strong> You should check in on some of those
+							fields below.
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="alert"
+								aria-label="Close"
+							></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<!-- card sections  -->
 
 		<div class="card__section">
@@ -500,12 +520,16 @@
 								</div>
 							</div>
 							<!-- cards  -->
-							<div class="row w-100">
+							<div class="row mt-lg-5 mb-lg-5">
 								<div class="col-6 col-sm-4 col-md-4 col-lg-3">
 									<div class="index_brands_grid_area">
 										<figure>
-											<div class="image">
-												<img src="./assets/img/chaixona-logo.svg" alt="" />
+											<div class="image text-center">
+												<img
+													src="./assets/img/chaixona-logo.svg"
+													class=""
+													alt=""
+												/>
 											</div>
 											<figcaption>
 												<strong>main title</strong>
@@ -518,8 +542,12 @@
 								<div class="col-6 col-sm-4 col-md-4 col-lg-3">
 									<div class="index_brands_grid_area">
 										<figure>
-											<div class="image">
-												<img src="./assets/img/chaixona-logo.svg" alt="" />
+											<div class="image text-center">
+												<img
+													class=""
+													src="./assets/img/chaixona-logo.svg"
+													alt=""
+												/>
 											</div>
 											<figcaption>
 												<strong>main title</strong>
@@ -532,8 +560,12 @@
 								<div class="col-6 col-sm-4 col-md-4 col-lg-3">
 									<div class="index_brands_grid_area">
 										<figure>
-											<div class="image">
-												<img src="./assets/img/chaixona-logo.svg" alt="" />
+											<div class="image text-center">
+												<img
+													class=""
+													src="./assets/img/chaixona-logo.svg"
+													alt=""
+												/>
 											</div>
 											<figcaption>
 												<strong>main title</strong>
@@ -546,8 +578,12 @@
 								<div class="col-6 col-sm-4 col-md-4 col-lg-3">
 									<div class="index_brands_grid_area">
 										<figure>
-											<div class="image">
-												<img src="./assets/img/chaixona-logo.svg" alt="" />
+											<div class="image text-center">
+												<img
+													class=""
+													src="./assets/img/chaixona-logo.svg"
+													alt=""
+												/>
 											</div>
 											<figcaption>
 												<strong>main title</strong>
@@ -578,8 +614,8 @@
 			<div>
 				<div class="inner">
 					<div class="tabs">
-						<a href="#" class="active">For Students</a>
-						<a href="#" class="">For Teachers</a>
+						<a href="#" class="active"> <strong>For Students</strong> </a>
+						<a href="#" class=""> <strong>For Teachers</strong> </a>
 					</div>
 				</div>
 				<div class="three_place">
@@ -758,10 +794,11 @@
 			<div class="container-fluid">
 				<div class="d-flex justify-content-between w-100">
 					<div class="d-flex">
-						<div class="navbar__home_button me-3">
+						<div class="navbar__home_button me-2">
 							<i class="fas fa-home text-white"></i>
 						</div>
-						<div class="navbar__search_button position-relative">
+						<span class="text-white"> | </span>
+						<div class="navbar__search_button position-relative ms-2">
 							<i class="fas fa-search text-white js__foo_nav"></i>
 							<input
 								class="navbar__search_input d-none"
