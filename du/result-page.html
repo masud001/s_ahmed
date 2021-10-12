@@ -26,7 +26,7 @@
 	</head>
 	<body>
 		<div class="programme__page">
-			<div class="home">
+			<div class="home" id="home">
 				<div class="navbar__top position-relative">
 					<nav class="navbar navbar-light nav_bg_color py-0 px-md-5">
 						<div class="container-fluid">
@@ -169,6 +169,8 @@
 					</div>
 				</div>
 			</div>
+			<!-- header shadow  -->
+			<div class="border_class"></div>
 			<!-- header bottom nav bar  -->
 			<div class="navbar_menu_wrapper d-none d-lg-block">
 				<div class="container-fluid px-5">
@@ -461,7 +463,7 @@
 
 			<!-- program page start  -->
 			<div class="page__header text-center py-4">
-				<h1 class="fs-1 fw-bold text-uppercase text-white">result</h1>
+				<h1 class="fs-2 fw-bold text-uppercase text-white">result</h1>
 			</div>
 
 			<!-- breadcrump  -->
@@ -472,7 +474,9 @@
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb mb-0">
 									<li class="breadcrumb-item text-uppercase fw-normal">
-										<a href="#">HOME</a>
+										<a href="#">
+											<span><i class="fas fa-home"></i></span>
+										</a>
 									</li>
 									<li class="breadcrumb-item text-uppercase fw-normal active">
 										<a href="#"> academy</a>
@@ -490,7 +494,7 @@
 					<!-- row  -->
 					<div class="row">
 						<div class="col-12">
-							<div class="result__wrapper p-2 p-md-4">
+							<div class="result__wrapper p-2 p-md-4 shadow">
 								<div class="row">
 									<div class="col-12 col-sm-4 col-md-2">
 										<div class="select">
@@ -588,7 +592,7 @@
 												class="
 													show_result_btn
 													btn btn-light
-													py-3
+													py-2
 													text-capitalize
 												"
 												type="button"
@@ -607,11 +611,11 @@
 		<!-- program page end  -->
 
 		<!-- footer  -->
-		<div class="bg-white pb-5">
+		<div class="pb-5" style="background-color: #d7e0e5">
 			<footer class="index_footer">
 				<div class="footer_map">
 					<div class="link">
-						<a href="">title there</a>
+						<a href="#home">go up</a>
 					</div>
 				</div>
 				<footer id="footer">
@@ -650,7 +654,7 @@
 						<div class="navbar__home_button me-2">
 							<i class="fas fa-home text-white"></i>
 						</div>
-						<span class="text-white"> | </span>
+						<span class="text-white"> <i class="fas fa-minus"></i> </span>
 						<div class="navbar__search_button position-relative ms-2">
 							<i class="fas fa-search text-white js__foo_nav"></i>
 							<input

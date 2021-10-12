@@ -75,7 +75,7 @@
 	width: calc(100% - 550px);
 	padding: 0 50px 0 0;
 }
-.next_index h3 {
+.inner h3 {
 	padding: 0 0 24px;
 	font-size: 30px;
 	line-height: 1.35;
@@ -83,7 +83,7 @@
 	font-weight: bold;
 	color: #000;
 }
-.next_index p {
+.inner p {
 	padding: 0 150px 45px 0;
 	font-size: 16px;
 	font-weight: 300;
@@ -91,7 +91,7 @@
 	color: rgb(95, 91, 91);
 	font-family: 'Co Headline W' !important;
 }
-.next_index .link a {
+.inner .link a {
 	display: inline-block;
 	padding: 0 70px 0 0;
 	font-size: 15px;

@@ -24,7 +24,7 @@
 		<link rel="stylesheet" href="./assets/css/responsive.css" />
 	</head>
 	<body>
-		<div class="home">
+		<div class="home" id="home">
 			<div class="navbar__top position-relative">
 				<nav class="navbar navbar-light nav_bg_color py-0 px-md-5">
 					<div class="container-fluid">
@@ -163,6 +163,8 @@
 				</div>
 			</div>
 		</div>
+		<!-- header shadow  -->
+		<div class="border_class"></div>
 
 		<!-- header bottom nav bar  -->
 
@@ -391,7 +393,7 @@
 			</div>
 		</div>
 
-		<div class="alert_section mt-3 px-lg-5">
+		<div class="alert_section mt-3 px-lg-0">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12">
@@ -494,34 +496,38 @@
 		</div>
 
 		<!-- index section  -->
-		<div class="container-fluid overflow-hidden">
+		<div class="container overflow-hidden">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-12 col-md-6">
+					<div class="image image__wrapper m-4">
+						<img src="./assets/img/du-facultys.jpg" class="img-fluid" alt="" />
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="inner">
+						<h3>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+							inventore?
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum animi
+							nemo iste incidunt? Nisi voluptas iusto facere assumenda debitis at
+							nesciunt rerum blanditiis, amet doloribus tempora distinctio quod rem.
+						</p>
+						<div class="link">
+							<a href="#">explore more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="row">
 				<div class="col-12">
-					<div class="index_first">
+					<div class="">
 						<div>
-							<div class="next_index">
-								<div class="image">
-									<img src="./assets/img/du-facultys.jpg" alt="" />
-								</div>
-								<div class="inner">
-									<h3>
-										Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-										Veniam, inventore?
-									</h3>
-									<p>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Quam eum animi nemo iste incidunt? Nisi voluptas iusto
-										facere assumenda debitis at nesciunt rerum blanditiis, amet
-										doloribus tempora distinctio quod rem.
-									</p>
-									<div class="link">
-										<a href="#">explore more</a>
-									</div>
-								</div>
-							</div>
 							<!-- cards  -->
 							<div class="row mt-lg-5 mb-lg-5">
-								<div class="col-6 col-sm-4 col-md-4 col-lg-3">
+								<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 									<div class="index_brands_grid_area">
 										<figure>
 											<div class="image text-center">
@@ -539,7 +545,7 @@
 										</figure>
 									</div>
 								</div>
-								<div class="col-6 col-sm-4 col-md-4 col-lg-3">
+								<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 									<div class="index_brands_grid_area">
 										<figure>
 											<div class="image text-center">
@@ -557,7 +563,7 @@
 										</figure>
 									</div>
 								</div>
-								<div class="col-6 col-sm-4 col-md-4 col-lg-3">
+								<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 									<div class="index_brands_grid_area">
 										<figure>
 											<div class="image text-center">
@@ -575,7 +581,43 @@
 										</figure>
 									</div>
 								</div>
-								<div class="col-6 col-sm-4 col-md-4 col-lg-3">
+								<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+									<div class="index_brands_grid_area">
+										<figure>
+											<div class="image text-center">
+												<img
+													class=""
+													src="./assets/img/chaixona-logo.svg"
+													alt=""
+												/>
+											</div>
+											<figcaption>
+												<strong>main title</strong>
+												<p>Sub • title</p>
+											</figcaption>
+											<a href="" class="full_link"></a>
+										</figure>
+									</div>
+								</div>
+								<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+									<div class="index_brands_grid_area">
+										<figure>
+											<div class="image text-center">
+												<img
+													class=""
+													src="./assets/img/chaixona-logo.svg"
+													alt=""
+												/>
+											</div>
+											<figcaption>
+												<strong>main title</strong>
+												<p>Sub • title</p>
+											</figcaption>
+											<a href="" class="full_link"></a>
+										</figure>
+									</div>
+								</div>
+								<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 									<div class="index_brands_grid_area">
 										<figure>
 											<div class="image text-center">
@@ -754,7 +796,7 @@
 			<footer class="index_footer">
 				<div class="footer_map">
 					<div class="link">
-						<a href="">title there</a>
+						<a href="#home">go up</a>
 					</div>
 				</div>
 				<footer id="footer">
@@ -797,7 +839,7 @@
 						<div class="navbar__home_button me-2">
 							<i class="fas fa-home text-white"></i>
 						</div>
-						<span class="text-white"> | </span>
+						<span class="text-white divider__icon"> <i class="fas fa-minus"></i> </span>
 						<div class="navbar__search_button position-relative ms-2">
 							<i class="fas fa-search text-white js__foo_nav"></i>
 							<input

@@ -5,6 +5,7 @@ body {
 	background-color: #eae9ee !important;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 * {
 	box-sizing: border-box;
@@ -16,6 +17,10 @@ p {
 	font-family: 'Co Headline W';
 }
 /* navbar design css  */
+.navbar-brand {
+	font-family: 'Co Headline W' !important;
+	font-size: 16px;
+}
 .nav_bg_color {
 	background-color: #333333;
 }
@@ -183,8 +188,15 @@ p {
 /* header css design 
  */
 
+.border_class {
+	width: 100%;
+	height: 3px;
+	background-color: #730200;
+}
+
 .header_bg_color {
 	background-color: #800000;
+	border-bottom: 1px solid #840000;
 }
 .header__du_left .du__logo {
 	width: 100px;
@@ -211,12 +223,14 @@ p {
 /* nav bar menu header bottom  */
 
 .navbar_menu_wrapper {
-	background: url('../img/red-nav-bg3.png') repeat-x;
-	height: 32px;
+	/* background: url('../img/red-nav-bg3.png') repeat-x; */
+	background-color: #800000;
+	height: 44px;
 	position: relative;
 	width: 100%;
 	z-index: 5;
 	margin-top: 0px;
+	border-top: 3px solid #8f0004;
 }
 .navbar_menu ul {
 	margin: 0;
@@ -232,7 +246,7 @@ p {
 	display: inline-block;
 	text-transform: uppercase;
 	font-size: 12px;
-	padding: 7px 10px;
+	padding: 11px 10px;
 	text-decoration: none;
 	color: #fff;
 	font-family: Arial, Helvetica, sans-serif;
@@ -248,6 +262,7 @@ p {
 
 .bg_mega_menu {
 	visibility: hidden;
+	top: 30px;
 	width: 990px !important;
 	background: -moz-linear-gradient(top, #000 0, #333 50%, #474747 100%);
 	background: -webkit-gradient(
@@ -292,6 +307,11 @@ p {
 	color: red;
 }
 
+.image__wrapper {
+}
+.image__wrapper img {
+	border-radius: 20px;
+}
 /* card section  */
 
 .card__section {
@@ -572,7 +592,7 @@ footer#footer > div {
 	color: #fff;
 	position: relative;
 	z-index: 999;
-	top: 3px;
+	top: 2px;
 }
 .navbar__home_button i:hover {
 	color: red !important;
@@ -647,7 +667,13 @@ input.navbar__search_input {
 	display: grid;
 	place-items: center;
 }
-
+.index_brands_grid_area .image img {
+	transition: 0.3s all ease-in;
+}
+.index_brands_grid_area:hover .image img {
+	position: relative;
+	transform: scale(1, 1.5);
+}
 .index_brands_grid_area figcaption {
 	margin-top: 15px;
 }
@@ -672,7 +698,7 @@ input.navbar__search_input {
 
 .page__header {
 	display: block;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #af062b, #960505, #fa2f40, #531212);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -693,12 +719,12 @@ input.navbar__search_input {
 }
 
 .breadcrumb_bg_color {
-	background-color: #b3b3b3;
-	border-bottom: 10px solid #b9c2c7;
+	background-color: #cfd9db;
 }
 .breadcrumb-item a {
 	text-decoration: none;
-	color: #4d4d4d;
+	color: #fff;
+	font-size: 12px;
 	font-family: 'Co Headline W';
 }
 .programs_card_wrapper .programs-title {
@@ -943,4 +969,12 @@ input.navbar__search_input {
 .table__wrapper .table {
 	background-color: #bdcbd4;
 	font-family: 'Co Headline W';
+}
+.divider__icon {
+	position: relative;
+	transform: rotate(90deg);
+}
+
+.table > :not(:first-child) {
+	border-top: 1px solid currentColor !important;
 }
