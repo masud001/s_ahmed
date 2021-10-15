@@ -368,14 +368,31 @@ p {
 	font-weight: 700;
 	font-family: 'Co Headline W';
 }
-.card__icon i {
-	color: #fff;
-	font-size: 45px;
+.card__icon {
+	width: 50px;
+	height: 50px;
 	position: absolute;
-	right: 20px;
-	bottom: 20px;
+	right: 15px;
+	bottom: 15px;
 }
-
+.card__icon img {
+	width: 100%;
+	height: 100%;
+}
+.card_icon_img_1 {
+	display: block;
+	transition: 0.4s all ease-in;
+}
+.card_icon_img_2 {
+	display: none;
+}
+.card__area:hover .card_icon_img_1 {
+	display: none;
+}
+.card__area:hover .card_icon_img_2 {
+	display: block;
+	transition: 0.4s all ease-in;
+}
 /* video card area  */
 video {
 	height: 100%;
@@ -666,13 +683,18 @@ input.navbar__search_input {
 	border-radius: 15px;
 	display: grid;
 	place-items: center;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
 }
-.index_brands_grid_area .image img {
-	transition: 0.3s all ease-in;
+.index_brands_grid_area .image {
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
 }
-.index_brands_grid_area:hover .image img {
-	position: relative;
-	transform: scale(1, 1.5);
+.index_brands_grid_area .image:hover .image-1 {
+	display: none;
+}
+.index_brands_grid_area .image:hover .image-2 {
+	display: block;
 }
 .index_brands_grid_area figcaption {
 	margin-top: 15px;
@@ -977,4 +999,80 @@ input.navbar__search_input {
 
 .table > :not(:first-child) {
 	border-top: 1px solid currentColor !important;
+}
+
+.image-1 {
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.image-2 {
+	display: none;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.image:hover .image-1 {
+	display: none;
+}
+.image:hover .image-2 {
+	display: block !important;
+}
+
+.tags {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.tags li {
+	float: left;
+}
+.tags li a {
+	text-transform: capitalize;
+	font-size: 15px;
+}
+.tag {
+	background: #eee;
+	border-radius: 3px 0 0 3px;
+	color: #999;
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 20px 0 23px;
+	position: relative;
+	margin: 0 10px 10px 0;
+	text-decoration: none;
+	-webkit-transition: color 0.2s;
+}
+
+.tag::before {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+	content: '';
+	height: 6px;
+	left: 10px;
+	position: absolute;
+	width: 6px;
+	top: 10px;
+}
+
+.tag::after {
+	background: #bdcbd4;
+	border-bottom: 13px solid transparent;
+	border-left: 10px solid #eee;
+	border-top: 13px solid transparent;
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.tag:hover {
+	background-color: crimson;
+	color: white;
+}
+
+.tag:hover::after {
+	border-left-color: crimson;
 }

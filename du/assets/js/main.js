@@ -118,3 +118,12 @@ $('.tabbar ul li a').on('click touch', function (e) {
 		}, 600);
 	}
 });
+
+// Fancybox Configuration
+$('[data-fancybox="gallery"]').fancybox({
+	buttons: ['slideShow', 'thumbs', 'zoom', 'fullScreen', 'share', 'close'],
+	loop: false,
+	protect: true,
+});
+
+// data table
