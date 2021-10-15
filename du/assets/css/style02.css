@@ -14,6 +14,7 @@
 	position: relative;
 	z-index: 0;
 	border-radius: 10px;
+	font-family: 'Co Headline W';
 }
 .glow-on-hover_2 {
 	width: 100%;
@@ -26,8 +27,12 @@
 	position: relative;
 	z-index: 0;
 	border-radius: 10px;
+	font-family: 'Co Headline W';
 }
-
+.glow-on-hover_2.request_info {
+	height: 62px !important;
+	font-family: 'Co Headline W';
+}
 .glow-on-hover:before {
 	content: '';
 	background: linear-gradient(
