@@ -18,7 +18,7 @@ p {
 }
 /* navbar design css  */
 .navbar-brand {
-	font-family: 'Co Headline W' !important;
+	font-family: 'Trajan Pro' !important;
 	font-size: 16px;
 }
 .nav_bg_color {
@@ -897,32 +897,20 @@ input.navbar__search_input {
 
 /* program page  */
 .page_main_body {
-	background-color: #d7e0e5;
+	background-color: #fff;
 	min-height: 500px;
 }
 
 .page__header {
 	display: block;
-	/* background: linear-gradient(-45deg, #af062b, #960505, #fa2f40, #531212); */
 	background-color: #333333;
 	background-size: 400% 400%;
-	/* animation: gradient 15s ease infinite; */
 }
-/* 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
 
 .page__header h1 {
-	font-family: 'Co Headline W';
+	font-family: 'Trajan Pro';
+	font-size: 17px;
+	padding: 15px 0px;
 }
 
 .breadcrumb_bg_color {
