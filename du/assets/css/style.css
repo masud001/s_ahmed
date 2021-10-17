@@ -349,7 +349,7 @@ p {
 	transition: 0.3s all ease-in;
 }
 .navbar_menu_items > li > ul > li > a {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #000;
 }
 .navbar_menu_items > li > ul > li:last-child > a {
 	border-bottom: 0;
@@ -363,7 +363,7 @@ p {
 	border-bottom: 0;
 }
 .navbar_menu_items > li > ul > li > ul > li > a {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #000;
 }
 .navbar_menu_items > li > ul > li > ul > li:last-child > a {
 	border-bottom: 0;
@@ -903,11 +903,12 @@ input.navbar__search_input {
 
 .page__header {
 	display: block;
-	background: linear-gradient(-45deg, #af062b, #960505, #fa2f40, #531212);
+	/* background: linear-gradient(-45deg, #af062b, #960505, #fa2f40, #531212); */
+	background-color: #333333;
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	/* animation: gradient 15s ease infinite; */
 }
-
+/* 
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -918,7 +919,8 @@ input.navbar__search_input {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
+
 .page__header h1 {
 	font-family: 'Co Headline W';
 }
