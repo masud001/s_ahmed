@@ -90,7 +90,7 @@ p {
 }
 .navbar__top_menu > li > ul.sub_menu > li a {
 	text-transform: capitalize;
-	font-size: 14px;
+	font-size: 12px;
 	color: #fff;
 	display: block;
 	text-decoration: none;
@@ -300,7 +300,7 @@ p {
 }
 .navbar_menu_items > li > ul > li > a {
 	text-transform: capitalize;
-	font-size: 14px;
+	font-size: 12px;
 	color: #fff;
 	display: block;
 	text-decoration: none;
