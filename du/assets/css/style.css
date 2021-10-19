@@ -770,18 +770,6 @@ input.navbar__search_input {
 	bottom: 56px;
 }
 
-.single-program-card {
-	border-radius: 25px;
-}
-.single-program-card .card-image {
-	max-height: 200px;
-	height: 200px;
-}
-.single-program-card .card-image img {
-	border-radius: 25px;
-	width: 100%;
-	height: 100%;
-}
 .card-title {
 	font-family: 'Co Headline W';
 }
@@ -938,10 +926,68 @@ input.navbar__search_input {
 	cursor: pointer;
 }
 .programs_card_wrapper {
-	background-color: #ebe7e7;
 	min-height: 300px;
 }
+.course_name_badge {
+}
+.course_name_badge span {
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #000;
+	display: inline-block;
+	font-size: 15px;
+}
+.course__content {
+	padding: 15px;
+}
+.course__title {
+}
+.course__title h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 7px;
+	color: #800000;
+	font-family: sans-serif;
+}
+.course_description {
+}
+.course_description p {
+	font-family: sans-serif;
+	text-align: justify;
+	font-size: 14px;
+}
+.course_button button {
+	border: 0;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 5px;
+	background-color: #800000;
+	color: #fff;
+	transition: 0.4s all ease-in;
+}
+.course_button button:hover {
+	color: #000;
+	background-color: #ededed;
+}
 
+.image__area {
+	padding: 15px;
+	width: 170px;
+	height: 140px;
+	display: grid;
+	place-items: center;
+}
+.image__area img {
+	border-radius: 7px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 .badge__area {
 	display: inline-block;
 }
@@ -955,21 +1001,6 @@ input.navbar__search_input {
 	padding: 5px 25px;
 	border-radius: 10px;
 	font-family: 'Co Headline W';
-}
-
-.single-program-card {
-	border-radius: 25px;
-}
-
-.single-program-card .card-image {
-	max-height: 200px;
-	height: 200px;
-}
-
-.single-program-card .card-image img {
-	border-radius: 25px;
-	width: 100%;
-	height: 100%;
 }
 
 .sidebar_bg-color {
@@ -1079,9 +1110,7 @@ input.navbar__search_input {
 	color: red;
 	text-align: center;
 }
-.image__area img {
-	border-radius: 10px;
-}
+
 .social__contacts {
 	background-color: #999999;
 	border-radius: 15px;
