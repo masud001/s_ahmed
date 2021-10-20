@@ -1064,11 +1064,18 @@ input.navbar__search_input {
 
 .notice__wrapper {
 	min-height: 500px;
-	background-color: #bdcbd4;
+	border-top: 3px solid #800000;
+}
+.notice_page_body {
+	background-image: url('../img/bg-body.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fff;
 }
 
 .notice__wrapper h1 {
-	color: red;
+	color: #800000;
 	text-decoration: underline;
 	text-align: center;
 	text-transform: uppercase;
@@ -1084,6 +1091,12 @@ input.navbar__search_input {
 	font-family: 'Co Headline W';
 }
 
+.notice__wrapper button span img {
+	width: 25px;
+}
+.print_icons img {
+	width: 25px;
+}
 /* single stuff page  */
 
 .staff__wrapper {
@@ -1274,4 +1287,47 @@ td {
 h6.stuff_designation {
 	font-size: 15px;
 	color: #000;
+}
+
+/* notice page  */
+.notice_btn {
+	width: 400px;
+}
+.notice_btn .active {
+	position: relative;
+}
+.notice_btn .active::after {
+	position: absolute;
+	content: '';
+	background-color: #800000;
+	width: 1px;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+.notice_btn button {
+	border: none;
+	text-transform: capitalize;
+	margin: 1px 0px;
+	padding: 10px;
+	font-family: sans-serif;
+	transition: 0.4s all ease-in;
+	background-color: transparent;
+}
+.notice_btn button:hover {
+	background-color: #800000;
+	color: #fff;
+}
+.image__area.notice_image {
+	width: 140px;
+	height: 140px;
+}
+.image__area.notice_image img {
+	border-radius: 50%;
+}
+.single_notice {
+	transition: 0.3s all ease;
+}
+.single_notice:hover {
+	border-top: 1px solid #800000;
 }
