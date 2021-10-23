@@ -1394,3 +1394,32 @@ h6.stuff_designation {
 .single_social_media:hover img {
 	border: 1px solid #800000;
 }
+.faculty__tabs {
+	border-top: 1px solid #ededed;
+	border-bottom: 0;
+}
+.faculty__tabs li {
+}
+.faculty__tabs li button {
+	text-transform: uppercase;
+	font-family: 'Trajan Pro';
+}
+.faculty__tabs li button.nav-link {
+	border: 1px solid #fff;
+	border-top-left-radius: 0rem;
+	border-top-right-radius: 0rem;
+	color: #4e4646;
+}
+.faculty__tabs li button.nav-link:hover {
+	border: 1px solid #fff;
+}
+.faculty__tabs li button.nav-link.active {
+	border-top: 1px solid #000 !important;
+	border-left: 0;
+	border-right: 0;
+}
+.faculty__content table tr,
+th,
+td {
+	font-family: 'Trajan Pro';
+}
