@@ -473,10 +473,10 @@
 								<div class="row">
 									<div class="col-md-3 d-flex justify-content-center">
 										<div class="faculty_image">
-											<img src="./assets/img/notice2.jpg" alt="" />
+											<img src="./assets/img/db.image.jpg" alt="" />
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-7">
 										<div class="faculty_details">
 											<div class="faculty_name">
 												<h1>Mr. jone deo</h1>
@@ -485,15 +485,22 @@
 												<h1>professor</h1>
 											</div>
 											<div class="faculty_content">
-												Lorem ipsum dolor sit amet consectetur adipisicing
-												elit. Exercitationem commodi harum praesentium
-												eveniet, voluptatibus laudantium doloribus sunt
-												consequatur inventore maiores blanditiis modi,
-												dolores, quis autem. Et hic illum adipisci magni.
+												<p>
+													Lorem ipsum, dolor sit amet consectetur
+													adipisicing elit. Saepe omnis deserunt itaque
+													laudantium. Officiis molestiae quisquam
+													laudantium debitis deserunt quidem perferendis,
+													a quas impedit dicta, facilis ex. Nam officiis
+													minus voluptatibus, qui voluptas incidunt
+													praesentium aliquam in dolores, soluta sit
+													itaque, nesciunt id veritatis delectus fuga
+													quos! Consequuntur, repudiandae libero...
+													<span class="more__read">more</span>
+												</p>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-3">
+									<div class="col-md-2">
 										<div
 											class="
 												faculty_social_media
@@ -503,22 +510,22 @@
 										>
 											<div class="single_social_media">
 												<a href="/">
-													<img src="./assets/img/fb.png" alt="" />
+													<i class="fab fa-facebook-square"></i>
 												</a>
 											</div>
 											<div class="single_social_media">
 												<a href="/">
-													<img src="./assets/img/fb.png" alt="" />
+													<i class="fab fa-linkedin"></i>
 												</a>
 											</div>
 											<div class="single_social_media">
 												<a href="/">
-													<img src="./assets/img/fb.png" alt="" />
+													<i class="fab fa-twitter"></i>
 												</a>
 											</div>
 											<div class="single_social_media">
 												<a href="/">
-													<img src="./assets/img/fb.png" alt="" />
+													<i class="fab fa-instagram"></i>
 												</a>
 											</div>
 										</div>
@@ -528,7 +535,7 @@
 						</div>
 					</div>
 
-					<div class="row my-3">
+					<div class="row mb-3 mt-5">
 						<div class="col-12">
 							<ul
 								class="nav nav-tabs faculty__tabs mb-3 justify-content-center"
@@ -546,7 +553,8 @@
 										aria-controls="pills-home"
 										aria-selected="true"
 									>
-										<span><i class="far fa-address-card"></i></span> Home
+										<span><i class="far fa-address-card"></i></span> Education
+										information
 									</button>
 								</li>
 								<li class="nav-item" role="presentation">
@@ -560,7 +568,21 @@
 										aria-controls="pills-profile"
 										aria-selected="false"
 									>
-										<span><i class="far fa-address-card"></i></span> Profile
+										<span><i class="far fa-address-card"></i></span> research
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button
+										class="nav-link"
+										id="pills-membership-tab"
+										data-bs-toggle="pill"
+										data-bs-target="#pills-membership"
+										type="button"
+										role="tab"
+										aria-controls="pills-membership"
+										aria-selected="false"
+									>
+										<span><i class="far fa-address-card"></i></span> membership
 									</button>
 								</li>
 								<li class="nav-item" role="presentation">
@@ -568,13 +590,28 @@
 										class="nav-link"
 										id="pills-contact-tab"
 										data-bs-toggle="pill"
-										data-bs-target="#pills-contact"
+										data-bs-target="#pills-award"
 										type="button"
 										role="tab"
-										aria-controls="pills-contact"
+										aria-controls="pills-award"
 										aria-selected="false"
 									>
-										<span><i class="far fa-address-card"></i></span> Contact
+										<span><i class="far fa-address-card"></i></span> award
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button
+										class="nav-link"
+										id="pills-contact-tab"
+										data-bs-toggle="pill"
+										data-bs-target="#pills-publications"
+										type="button"
+										role="tab"
+										aria-controls="pills-publications"
+										aria-selected="false"
+									>
+										<span><i class="far fa-address-card"></i></span>
+										publications
 									</button>
 								</li>
 							</ul>
@@ -588,8 +625,8 @@
 									aria-labelledby="pills-home-tab"
 								>
 									<div class="table-responsive">
-										<table class="table">
-											<thead>
+										<table class="table table-bordered">
+											<thead class="table-light">
 												<tr>
 													<th scope="col">#</th>
 													<th scope="col">First</th>
@@ -659,9 +696,85 @@
 								</div>
 								<div
 									class="tab-pane fade"
-									id="pills-contact"
+									id="pills-membership"
+									role="tabpanel"
+									aria-labelledby="pills-membership-tab"
+								>
+									<div class="table-responsive">
+										<table class="table">
+											<thead>
+												<tr>
+													<th scope="col">#</th>
+													<th scope="col">First</th>
+													<th scope="col">Last</th>
+													<th scope="col">Handle</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">1</th>
+													<td>Mark</td>
+													<td>Otto</td>
+													<td>@mdo</td>
+												</tr>
+												<tr>
+													<th scope="row">2</th>
+													<td>Jacob</td>
+													<td>Thornton</td>
+													<td>@fat</td>
+												</tr>
+												<tr>
+													<th scope="row">3</th>
+													<td colspan="2">Larry the Bird</td>
+													<td>@twitter</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="pills-award"
 									role="tabpanel"
 									aria-labelledby="pills-contact-tab"
+								>
+									<div class="table-responsive">
+										<table class="table">
+											<thead>
+												<tr>
+													<th scope="col">#</th>
+													<th scope="col">First</th>
+													<th scope="col">Last</th>
+													<th scope="col">Handle</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">1</th>
+													<td>Mark</td>
+													<td>Otto</td>
+													<td>@mdo</td>
+												</tr>
+												<tr>
+													<th scope="row">2</th>
+													<td>Jacob</td>
+													<td>Thornton</td>
+													<td>@fat</td>
+												</tr>
+												<tr>
+													<th scope="row">3</th>
+													<td colspan="2">Larry the Bird</td>
+													<td>@twitter</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="pills-publications"
+									role="tabpanel"
+									aria-labelledby="pills-publications-tab"
 								>
 									<div class="table-responsive">
 										<table class="table">

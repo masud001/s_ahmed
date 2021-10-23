@@ -1258,7 +1258,7 @@ input.navbar__search_input {
 }
 
 .tag::after {
-	background: #bdcbd4;
+	background: #fff;
 	border-bottom: 13px solid transparent;
 	border-left: 10px solid #eee;
 	border-top: 13px solid transparent;
@@ -1267,7 +1267,18 @@ input.navbar__search_input {
 	right: 0;
 	top: 0;
 }
-
+.show_result {
+}
+.show_result a {
+	text-decoration: none;
+	color: #000;
+}
+.show_result:hover a {
+	color: #800000;
+}
+.show_result span i {
+	margin-right: 7px;
+}
 .tag:hover {
 	background-color: crimson;
 	color: white;
@@ -1333,8 +1344,8 @@ h6.stuff_designation {
 }
 
 .faculty_image {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 }
 .faculty_image img {
 	width: 100%;
@@ -1343,20 +1354,21 @@ h6.stuff_designation {
 }
 
 .faculty_name h1 {
-	font-size: 33px;
+	font-size: 22px;
 	color: #000;
 	text-transform: capitalize;
 	margin: 0;
 	font-family: 'Trajan Pro';
+	font-weight: 700;
 }
 
 .faculty_designation h1 {
-	font-size: 18px;
+	font-size: 14px;
 	color: #bcbcbc;
 	text-transform: capitalize;
 	margin: 0;
 	font-family: 'Trajan Pro';
-	margin: 15px 0px;
+	margin: 10px 0px;
 }
 
 .faculty_details {
@@ -1372,27 +1384,26 @@ h6.stuff_designation {
 	right: -8px;
 }
 .faculty_content p {
-	font-size: 14px;
+	font-size: 12px;
 	font-family: 'Trajan Pro';
+	text-align: justify;
+	text-transform: unset;
+}
+.more__read {
+	text-decoration: underline;
+	color: #800000;
+	font-weight: 700;
 }
 .single_social_media {
-	width: 45px;
-	height: 45px;
-	border-radius: 50%;
-	margin: 5px;
 }
-.single_social_media img {
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	border: 1px solid #ededed;
-	padding: 7px;
-	cursor: pointer;
-	transition: 0.3s all ease-in;
+.single_social_media a i {
+	transition: 0.4s all ease-in-out;
+	padding: 10px;
+	font-size: 23px;
+	color: #999191;
 }
-
-.single_social_media:hover img {
-	border: 1px solid #800000;
+.single_social_media a i:hover {
+	color: #800000;
 }
 .faculty__tabs {
 	border-top: 1px solid #ededed;
@@ -1408,7 +1419,9 @@ h6.stuff_designation {
 	border: 1px solid #fff;
 	border-top-left-radius: 0rem;
 	border-top-right-radius: 0rem;
-	color: #4e4646;
+	color: #b8b8b8;
+	transition: 0.6s all ease-in-out;
+	font-size: 12px;
 }
 .faculty__tabs li button.nav-link:hover {
 	border: 1px solid #fff;
@@ -1422,4 +1435,5 @@ h6.stuff_designation {
 th,
 td {
 	font-family: 'Trajan Pro';
+	font-size: 12px;
 }
