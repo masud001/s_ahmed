@@ -24,6 +24,81 @@
 		<link rel="stylesheet" href="./assets/css/result.css" />
 		<link rel="stylesheet" href="./assets/css/gallary.css" />
 		<link rel="stylesheet" href="./assets/css/responsive.css" />
+		<style>
+			.card-header,
+			.metadata {
+				background: none;
+				padding: 0;
+				position: relative;
+				border-style: none;
+			}
+
+			.metadata {
+			}
+
+			.metadata p {
+				font-size: 14px;
+				margin-bottom: 0;
+			}
+			.metadata i {
+				color: #ff9d00;
+				margin-top: -2px;
+			}
+
+			.card-img {
+				-webkit-clip-path: inset(10% 0 20% 0);
+				clip-path: inset(10% 0 20% 0);
+				margin-top: -15%;
+			}
+
+			.card-body {
+				position: relative;
+				margin-top: -30%;
+				color: #9fa7a9;
+			}
+			.card-body .card-title {
+				font-weight: 600;
+				color: #414345;
+				font-size: 25px;
+			}
+
+			.card,
+			.trailer-preview {
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+			.card:hover,
+			.trailer-preview:hover {
+				box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.18);
+			}
+
+			.trailer-preview {
+				background-color: #ff3d49;
+				position: absolute;
+				top: -25px;
+				right: 24px;
+				width: 50px;
+				height: 50px;
+				line-height: 26px;
+				border-radius: 50%;
+				color: white;
+				font-size: 22px;
+				text-align: center;
+				padding-top: 13px;
+			}
+			.trailer-preview:hover,
+			.trailer-preview:disabled,
+			.trailer-preview:active,
+			.trailer-preview:focus {
+				background-color: #ff3d49;
+				color: white;
+			}
+			.trailer-preview i {
+				margin-left: 5px;
+			}
+			.card__text {
+				font-size: 14px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="programme__page">
@@ -440,7 +515,7 @@
 			<!-- program page start  -->
 
 			<div class="page__header text-center">
-				<h1 class="mb-0 fw-bold text-uppercase text-white">photo gallery</h1>
+				<h1 class="mb-0 fw-bold text-uppercase text-white">student production</h1>
 			</div>
 
 			<!-- breadcrump  -->
@@ -470,137 +545,280 @@
 				<div class="container-fluid">
 					<!-- row  -->
 					<div class="row">
-						<div class="col-12">
-							<div class="result__wrapper p-2 p-md-4 shadow">
-								<div class="row">
-									<div class="col-12">
-										<section class="categories-list">
-											<div class="categories-list-container">
-												<div class="category">
-													<a href="/gallary-single-page.html">
-														<div class="category-image">
-															<img
-																src="./assets/img/gallary1.jpg"
-																class="category-image-responsive"
-															/>
-														</div>
-														<div class="category-description">
-															<div class="category-title">
-																SOCIAL MEDIA CAMPAIGN
-															</div>
-															<div class="category-subtitle">
-																Monitoring, Facebook, Twitter, Blog,
-																Measurement
-															</div>
-														</div>
-													</a>
-												</div>
-
-												<div class="category">
-													<a href="#">
-														<div class="category-image">
-															<img
-																src="https://www.filepicker.io/api/file/J6dhm5GfRSWE0MDNTh6D"
-																class="category-image-responsive"
-															/>
-														</div>
-														<div class="category-description">
-															<div class="category-title">
-																SOCIAL MEDIA CAMPAIGN
-															</div>
-															<div class="category-subtitle">
-																Monitoring, Facebook, Twitter, Blog,
-																Measurement
-															</div>
-														</div>
-													</a>
-												</div>
-
-												<div class="category">
-													<a href="#">
-														<div class="category-image">
-															<img
-																src="https://www.filepicker.io/api/file/J6dhm5GfRSWE0MDNTh6D"
-																class="category-image-responsive"
-															/>
-														</div>
-														<div class="category-description">
-															<div class="category-title">
-																SOCIAL MEDIA CAMPAIGN
-															</div>
-															<div class="category-subtitle">
-																Monitoring, Facebook, Twitter, Blog,
-																Measurement
-															</div>
-														</div>
-													</a>
-												</div>
-
-												<div class="category">
-													<a href="#">
-														<div class="category-image">
-															<img
-																src="https://www.filepicker.io/api/file/J6dhm5GfRSWE0MDNTh6D"
-																class="category-image-responsive"
-															/>
-														</div>
-														<div class="category-description">
-															<div class="category-title">
-																SOCIAL MEDIA CAMPAIGN
-															</div>
-															<div class="category-subtitle">
-																Monitoring, Facebook, Twitter, Blog,
-																Measurement
-															</div>
-														</div>
-													</a>
-												</div>
-
-												<div class="category">
-													<a href="#">
-														<div class="category-image">
-															<img
-																src="https://www.filepicker.io/api/file/J6dhm5GfRSWE0MDNTh6D"
-																class="category-image-responsive"
-															/>
-														</div>
-														<div class="category-description">
-															<div class="category-title">
-																SOCIAL MEDIA CAMPAIGN
-															</div>
-															<div class="category-subtitle">
-																Monitoring, Facebook, Twitter, Blog,
-																Measurement
-															</div>
-														</div>
-													</a>
-												</div>
-
-												<div class="category">
-													<a href="#">
-														<div class="category-image">
-															<img
-																src="https://www.filepicker.io/api/file/J6dhm5GfRSWE0MDNTh6D"
-																class="category-image-responsive"
-															/>
-														</div>
-														<div class="category-description">
-															<div class="category-title">
-																SOCIAL MEDIA CAMPAIGN
-															</div>
-															<div class="category-subtitle">
-																Monitoring, Facebook, Twitter, Blog,
-																Measurement
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-										</section>
+						<!-- col  -->
+						<div class="col-12 col-sm-6 col-md-3 mb-4">
+							<div class="card">
+								<div class="card-header">
+									<img
+										class="card-img"
+										src="./assets/img/movie.jpg"
+										alt="Card image"
+									/>
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Interstellar</h1>
+									<div class="metadata w-100 d-flex align-items-center">
+										<span class="me-4 d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>Mr Jone Doe</p>
+										</span>
+										<span class="d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>2021 - 2022</p>
+										</span>
 									</div>
+									<div class="card__text mt-4">
+										<p>
+											The lead character, called 'The Bride,' was a member of
+											the Deadly Viper Assassination Squad, led by her lover
+										</p>
+									</div>
+
+									<a
+										class="trailer-preview"
+										href="https://youtu.be/ePbKGoIGAXY"
+										target="new"
+									>
+										<i class="fa fa-play" aria-hidden="true"></i>
+									</a>
 								</div>
 							</div>
 						</div>
+						<!-- col  -->
+						<div class="col-12 col-sm-6 col-md-3 mb-4">
+							<div class="card">
+								<div class="card-header">
+									<img
+										class="card-img"
+										src="./assets/img/movie.jpg"
+										alt="Card image"
+									/>
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Interstellar</h1>
+									<div class="metadata w-100 d-flex align-items-center">
+										<span class="me-4 d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>Mr Jone Doe</p>
+										</span>
+										<span class="d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>2021 - 2022</p>
+										</span>
+									</div>
+									<div class="card__text mt-4">
+										<p>
+											The lead character, called 'The Bride,' was a member of
+											the Deadly Viper Assassination Squad, led by her lover
+										</p>
+									</div>
+
+									<a
+										class="trailer-preview"
+										href="https://youtu.be/ePbKGoIGAXY"
+										target="new"
+									>
+										<i class="fa fa-play" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- col  -->
+						<div class="col-12 col-sm-6 col-md-3 mb-4">
+							<div class="card">
+								<div class="card-header">
+									<img
+										class="card-img"
+										src="./assets/img/movie.jpg"
+										alt="Card image"
+									/>
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Interstellar</h1>
+									<div class="metadata w-100 d-flex align-items-center">
+										<span class="me-4 d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>Mr Jone Doe</p>
+										</span>
+										<span class="d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>2021 - 2022</p>
+										</span>
+									</div>
+									<div class="card__text mt-4">
+										<p>
+											The lead character, called 'The Bride,' was a member of
+											the Deadly Viper Assassination Squad, led by her lover
+										</p>
+									</div>
+
+									<a
+										class="trailer-preview"
+										href="https://youtu.be/ePbKGoIGAXY"
+										target="new"
+									>
+										<i class="fa fa-play" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- col  -->
+						<div class="col-12 col-sm-6 col-md-3 mb-4">
+							<div class="card">
+								<div class="card-header">
+									<img
+										class="card-img"
+										src="./assets/img/movie.jpg"
+										alt="Card image"
+									/>
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Interstellar</h1>
+									<div class="metadata w-100 d-flex align-items-center">
+										<span class="me-4 d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>Mr Jone Doe</p>
+										</span>
+										<span class="d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>2021 - 2022</p>
+										</span>
+									</div>
+									<div class="card__text mt-4">
+										<p>
+											The lead character, called 'The Bride,' was a member of
+											the Deadly Viper Assassination Squad, led by her lover
+										</p>
+									</div>
+
+									<a
+										class="trailer-preview"
+										href="https://youtu.be/ePbKGoIGAXY"
+										target="new"
+									>
+										<i class="fa fa-play" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- col  -->
+						<div class="col-12 col-sm-6 col-md-3 mb-4">
+							<div class="card">
+								<div class="card-header">
+									<img
+										class="card-img"
+										src="./assets/img/movie.jpg"
+										alt="Card image"
+									/>
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Interstellar</h1>
+									<div class="metadata w-100 d-flex align-items-center">
+										<span class="me-4 d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>Mr Jone Doe</p>
+										</span>
+										<span class="d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>2021 - 2022</p>
+										</span>
+									</div>
+									<div class="card__text mt-4">
+										<p>
+											The lead character, called 'The Bride,' was a member of
+											the Deadly Viper Assassination Squad, led by her lover
+										</p>
+									</div>
+
+									<a
+										class="trailer-preview"
+										href="https://youtu.be/ePbKGoIGAXY"
+										target="new"
+									>
+										<i class="fa fa-play" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- col  -->
+						<div class="col-12 col-sm-6 col-md-3 mb-4">
+							<div class="card">
+								<div class="card-header">
+									<img
+										class="card-img"
+										src="./assets/img/movie.jpg"
+										alt="Card image"
+									/>
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Interstellar</h1>
+									<div class="metadata w-100 d-flex align-items-center">
+										<span class="me-4 d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>Mr Jone Doe</p>
+										</span>
+										<span class="d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>2021 - 2022</p>
+										</span>
+									</div>
+									<div class="card__text mt-4">
+										<p>
+											The lead character, called 'The Bride,' was a member of
+											the Deadly Viper Assassination Squad, led by her lover
+										</p>
+									</div>
+
+									<a
+										class="trailer-preview"
+										href="https://youtu.be/ePbKGoIGAXY"
+										target="new"
+									>
+										<i class="fa fa-play" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- col  -->
+						<div class="col-12 col-sm-6 col-md-3 mb-4">
+							<div class="card">
+								<div class="card-header">
+									<img
+										class="card-img"
+										src="./assets/img/movie.jpg"
+										alt="Card image"
+									/>
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Interstellar</h1>
+									<div class="metadata w-100 d-flex align-items-center">
+										<span class="me-4 d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>Mr Jone Doe</p>
+										</span>
+										<span class="d-flex align-items-center">
+											<i class="fa fa-star me-2" aria-hidden="true"></i>
+											<p>2021 - 2022</p>
+										</span>
+									</div>
+									<div class="card__text mt-4">
+										<p>
+											The lead character, called 'The Bride,' was a member of
+											the Deadly Viper Assassination Squad, led by her lover
+										</p>
+									</div>
+
+									<a
+										class="trailer-preview"
+										href="https://youtu.be/ePbKGoIGAXY"
+										target="new"
+									>
+										<i class="fa fa-play" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- col  -->
 					</div>
 				</div>
 			</div>
