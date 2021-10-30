@@ -1054,6 +1054,7 @@ input.navbar__search_input {
 	height: 400px;
 	position: relative;
 	overflow: hidden;
+	padding: 25px;
 }
 .image_area img {
 	height: 100%;
@@ -1696,12 +1697,9 @@ td {
 	background-color: #fff;
 }
 .overlay_content {
-	width: calc(50% - 25px);
 	background-color: rgba(128, 0, 0, 0.5);
 	padding: 25px;
 	color: #fff;
-	top: 25px;
-	left: 25px;
 	position: relative;
 }
 
