@@ -30,6 +30,9 @@
 	.next_index .image {
 		height: 384px;
 	}
+	.overlay_content {
+		width: 100%;
+	}
 }
 @media only screen and (min-width: 576px) {
 	.next_index .image {
@@ -44,6 +47,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+	.overlay_content {
+		width: 50%;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
