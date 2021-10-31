@@ -618,7 +618,21 @@ video {
 	padding: 15px 35px;
 }
 
-@media (min-width: 240px) and (max-width: 479px) {
+@media (min-width: 320px) and (max-width: 576px) {
+	.copy_write_text img {
+		width: 45px;
+		height: auto;
+	}
+	.copy_write_text p {
+		font-size: 12px;
+	}
+	.develoepr_area img {
+		width: 45px;
+		height: auto;
+	}
+	.develoepr_area p {
+		font-size: 12px;
+	}
 }
 
 .card-title {
