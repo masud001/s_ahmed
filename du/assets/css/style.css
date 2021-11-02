@@ -356,7 +356,7 @@ p {
 .navbar_menu_items > li > ul > li > a:hover {
 	color: red;
 	background-color: #000;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #333;
 }
 .navbar_menu_items > li > ul > li:last-child > a:hover {
 	border-bottom: 0;
@@ -370,7 +370,7 @@ p {
 .navbar_menu_items > li > ul > li > ul > li > a:hover {
 	color: red;
 	background-color: #000;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #333;
 }
 .navbar_menu_items > li > ul > li > ul > li:last-child > a:hover {
 	border-bottom: 0;
