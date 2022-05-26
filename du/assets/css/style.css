@@ -459,20 +459,7 @@ p {
 	text-decoration: none;
 	cursor: pointer;
 }
-.card__overlay {
-	background-color: #eae9ee;
-	position: absolute;
-	width: 150px;
-	height: 150px;
-	border-radius: 100%;
-	right: -150px;
-	bottom: -150px;
-	transition: 0.4s ease-in;
-}
-.card__area:hover .card__overlay {
-	right: -35px;
-	bottom: -35px;
-}
+
 .card__area:hover {
 	transform: translate(0, -5px);
 }
@@ -490,8 +477,9 @@ p {
 	width: 50px;
 	height: 50px;
 	position: absolute;
-	right: 15px;
-	bottom: 15px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 .card__icon img {
 	width: 100%;
