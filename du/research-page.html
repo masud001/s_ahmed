@@ -15,14 +15,15 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 		/>
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css" />
 		<!-- custom style css  -->
 		<link rel="stylesheet" href="./assets/fonts/fonts.css" />
 		<link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
 		<link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<link rel="stylesheet" href="./assets/css/style02.css" />
-		<link rel="stylesheet" href="./assets/css/stuff.css" />
 		<link rel="stylesheet" href="./assets/css/result.css" />
+		<link rel="stylesheet" href="./assets/css/data-table.css" />
 		<link rel="stylesheet" href="./assets/css/responsive.css" />
 	</head>
 	<body>
@@ -409,7 +410,7 @@
 
 			<!-- program page start  -->
 			<div class="page__header text-center">
-				<h1 class="mb-0 fw-bold text-uppercase text-white">form page</h1>
+				<h1 class="mb-0 fw-bold text-uppercase text-white">film archive</h1>
 			</div>
 
 			<!-- breadcrump  -->
@@ -420,7 +421,9 @@
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb mb-0">
 									<li class="breadcrumb-item text-uppercase fw-normal">
-										<a href="#">HOME</a>
+										<a href="#">
+											<span><i class="fas fa-home"></i></span>
+										</a>
 									</li>
 									<li class="breadcrumb-item text-uppercase fw-normal active">
 										<a href="#"> academy</a>
@@ -438,19 +441,79 @@
 					<!-- row  -->
 					<div class="row">
 						<div class="col-12">
-							<table class="table">
-								<thead class="table-light">
-									<tr>
-										<th scope="col">#</th>
-										<th scope="col">First</th>
-										<th scope="col">Last</th>
-										<th scope="col">Handle</th>
-									</tr>
-								</thead>
-								<tbody>
-									...
-								</tbody>
-							</table>
+							<div class="result__wrapper p-2 p-md-4 shadow">
+								<div class="row">
+									<!-- library page -->
+									<table
+										id="myTable"
+										class="display mt-2 pt-3"
+										cellspacing="0"
+										width="100%"
+									>
+										<thead>
+											<tr
+												class=""
+												style="
+													background-color: #fff;
+													text-transform: capitalize;
+												"
+											>
+												<th>Sl</th>
+												<th>Title:</th>
+												<th>Description:</th>
+												<th>Principal Investigator:</th>
+												<th>Investigator (s):</th>
+												<th>description</th>
+												<th>Supervisor:</th>
+												<th>Status:</th>
+											</tr>
+										</thead>
+
+										<tfoot>
+											<tr
+												class=""
+												style="
+													background-color: #fff;
+													text-transform: capitalize;
+												"
+											>
+												<th>Sl</th>
+												<th>Title:</th>
+												<th>Description:</th>
+												<th>Principal Investigator:</th>
+												<th>Investigator (s):</th>
+												<th>description</th>
+												<th>Supervisor:</th>
+												<th>Status:</th>
+											</tr>
+										</tfoot>
+
+										<tbody>
+											<tr>
+												<td>Sl</td>
+												<td>Title:</td>
+												<td>Description:</td>
+												<td>Principal Investigator:</td>
+												<td>Investigator (s):</td>
+												<td>description</td>
+												<td>Supervisor:</td>
+												<td>completed/ ongoing/ published</td>
+											</tr>
+
+											<tr>
+												<td>Sl</td>
+												<td>Title:</td>
+												<td>Description:</td>
+												<td>Principal Investigator:</td>
+												<td>Investigator (s):</td>
+												<td>description</td>
+												<td>Supervisor:</td>
+												<td>completed/ ongoing/ published</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -497,6 +560,7 @@
 				</div>
 			</div>
 		</section>
+
 		<footer class="footer_area">
 			<div class="container">
 				<div class="row row-cols-2 row-cols-md-3 align-items-center">
@@ -548,17 +612,17 @@
 			</div>
 		</footer>
 
+		<!-- dropdown menu  -->
+
 		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="./assets/js/owl.carousel.min.js"></script>
+		<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
 		<script src="./assets/js/main.js"></script>
 		<script>
-			var tooltipTriggerList = [].slice.call(
-				document.querySelectorAll('[data-bs-toggle="tooltip"]')
-			);
-			var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-				return new bootstrap.Tooltip(tooltipTriggerEl);
+			$(document).ready(function () {
+				$('#myTable').DataTable();
 			});
 		</script>
 	</body>
