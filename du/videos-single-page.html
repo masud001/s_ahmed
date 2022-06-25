@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>DU || all faculty</title>
+		<title>DU || gallary page</title>
 		<!-- botstrap cdn  -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -15,14 +15,19 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 		/>
+		<!-- fancybox -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+		/>
 		<!-- custom style css  -->
 		<link rel="stylesheet" href="./assets/fonts/fonts.css" />
 		<link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
 		<link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<link rel="stylesheet" href="./assets/css/style02.css" />
-		<link rel="stylesheet" href="./assets/css/stuff.css" />
 		<link rel="stylesheet" href="./assets/css/result.css" />
+		<link rel="stylesheet" href="./assets/css/gallary.css" />
 		<link rel="stylesheet" href="./assets/css/responsive.css" />
 	</head>
 	<body>
@@ -408,8 +413,8 @@
 			<!-- header bottom nav bar end -->
 
 			<!-- program page start  -->
-			<div class="page__header text-center">
-				<h1 class="mb-0 fw-bold text-uppercase text-white">Alumni</h1>
+			<div class="page__header text-center py-4">
+				<h1 class="fs-2 fw-bold text-uppercase text-white">videos single page</h1>
 			</div>
 
 			<!-- breadcrump  -->
@@ -420,7 +425,9 @@
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb mb-0">
 									<li class="breadcrumb-item text-uppercase fw-normal">
-										<a href="#">HOME</a>
+										<a href="#">
+											<span><i class="fas fa-home"></i></span>
+										</a>
 									</li>
 									<li class="breadcrumb-item text-uppercase fw-normal active">
 										<a href="#"> academy</a>
@@ -436,288 +443,170 @@
 			<div class="page_main_body py-3 px-md-5">
 				<div class="container-fluid">
 					<!-- row  -->
-
-					<div class="row py-3">
-						<!-- col  -->
-						<div class="col-md-12">
-							<div class="alumni_content shadow p-3 bg-white">
-								<p class="m-0">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-									commodi ipsam delectus a saepe eligendi quisquam debitis qui ut
-									dolorem quam voluptatibus, nulla fuga, quo, animi aliquam non
-									modi sint?
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- row   -->
-					<div class="row py-3 row-cols-2 row-cols-sm-3 row-cols-md-5">
-						<!-- cols   -->
-						<div class="col">
-							<div class="shadow p-3 rounded bg-white">
-								<div class="text-center">
-									<div class="d-flex justify-content-center mt-2">
-										<button class="custom-btn btn-16 text-capitalize">
-											association
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- cols   -->
-						<div class="col">
-							<div class="shadow p-3 rounded bg-white">
-								<div class="text-center">
-									<div class="d-flex justify-content-center mt-2">
-										<button class="custom-btn btn-16 text-capitalize">
-											membership
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- cols   -->
-						<div class="col">
-							<div class="shadow p-3 rounded bg-white">
-								<div class="text-center">
-									<div class="d-flex justify-content-center mt-2">
-										<button class="custom-btn btn-16 text-capitalize">
-											activities
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- cols   -->
-						<div class="col">
-							<div class="shadow p-3 rounded bg-white">
-								<div class="text-center">
-									<div class="d-flex justify-content-center mt-2">
-										<button class="custom-btn btn-16 text-capitalize">
-											publication
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- cols   -->
-						<div class="col">
-							<div class="shadow p-3 rounded bg-white">
-								<div class="text-center">
-									<div class="d-flex justify-content-center mt-2">
-										<button class="custom-btn btn-16 text-capitalize">
-											gallery
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- row  -->
-					<div class="row py-3">
-						<div class="notable_alumnis shadow pb-3 bg-white">
-							<div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
-								<!-- col  -->
-								<div class="col py-4">
-									<div class="stuff_card__wrapper">
-										<a href="/">
-											<div class="shadow">
-												<div class="stuff_card_area pt-5">
-													<div class="stuff__image">
-														<img
-															src="https://i.pravatar.cc/300?img=26"
-															alt="stuff"
-															class="img-fluid"
-														/>
+					<div class="row">
+						<div class="col-12">
+							<div class="result__wrapper p-2 p-md-4 shadow">
+								<div class="row">
+									<div class="col-12">
+										<main class="main">
+											<div class="container">
+												<div class="row">
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
 													</div>
-													<div class="stuff_about text-center pb-4">
-														<h6>Alumni</h6>
-														<h5>shafiul alam bhuiyan</h5>
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
 													</div>
-												</div>
-												<!-- <div class="follow__btn">
-													<p>details</p>
-												</div> -->
-											</div>
-										</a>
-									</div>
-								</div>
-								<!-- col  -->
-								<div class="col py-4">
-									<div class="stuff_card__wrapper">
-										<a href="/">
-											<div class="shadow">
-												<div class="stuff_card_area pt-5">
-													<div class="stuff__image">
-														<img
-															src="https://i.pravatar.cc/300?img=26"
-															alt="stuff"
-															class="img-fluid"
-														/>
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
 													</div>
-													<div class="stuff_about text-center pb-4">
-														<h6>Alumni</h6>
-														<h5>shafiul alam bhuiyan</h5>
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
 													</div>
-												</div>
-												<!-- <div class="follow__btn">
-													<p>details</p>
-												</div> -->
-											</div>
-										</a>
-									</div>
-								</div>
-								<!-- col  -->
-								<div class="col py-4">
-									<div class="stuff_card__wrapper">
-										<a href="/">
-											<div class="shadow">
-												<div class="stuff_card_area pt-5">
-													<div class="stuff__image">
-														<img
-															src="https://i.pravatar.cc/300?img=26"
-															alt="stuff"
-															class="img-fluid"
-														/>
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
 													</div>
-													<div class="stuff_about text-center pb-4">
-														<h6>Alumni</h6>
-														<h5>shafiul alam bhuiyan</h5>
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
 													</div>
-												</div>
-												<!-- <div class="follow__btn">
-													<p>details</p>
-												</div> -->
-											</div>
-										</a>
-									</div>
-								</div>
-								<!-- col  -->
-								<div class="col py-4">
-									<div class="stuff_card__wrapper">
-										<a href="/">
-											<div class="shadow">
-												<div class="stuff_card_area pt-5">
-													<div class="stuff__image">
-														<img
-															src="https://i.pravatar.cc/300?img=26"
-															alt="stuff"
-															class="img-fluid"
-														/>
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
 													</div>
-													<div class="stuff_about text-center pb-4">
-														<h6>Alumni</h6>
-														<h5>shafiul alam bhuiyan</h5>
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 mb-4">
+														<div class="card">
+															<div class="card-image">
+																<a
+																	href="https://source.unsplash.com/1280x720/?nature"
+																	data-fancybox="gallery"
+																	data-caption="Caption Images 1"
+																>
+																	<img
+																		src="https://source.unsplash.com/1280x720/?nature"
+																		alt="Image Gallery"
+																		class="img-fluid"
+																	/>
+																</a>
+															</div>
+														</div>
 													</div>
 												</div>
-												<!-- <div class="follow__btn">
-													<p>details</p>
-												</div> -->
 											</div>
-										</a>
-									</div>
-								</div>
-								<!-- col  -->
-								<div class="col py-4">
-									<div class="stuff_card__wrapper">
-										<a href="/">
-											<div class="shadow">
-												<div class="stuff_card_area pt-5">
-													<div class="stuff__image">
-														<img
-															src="https://i.pravatar.cc/300?img=26"
-															alt="stuff"
-															class="img-fluid"
-														/>
-													</div>
-													<div class="stuff_about text-center pb-4">
-														<h6>Alumni</h6>
-														<h5>shafiul alam bhuiyan</h5>
-													</div>
-												</div>
-												<!-- <div class="follow__btn">
-													<p>details</p>
-												</div> -->
-											</div>
-										</a>
-									</div>
-								</div>
-								<!-- col  -->
-								<div class="col py-4">
-									<div class="stuff_card__wrapper">
-										<a href="/">
-											<div class="shadow">
-												<div class="stuff_card_area pt-5">
-													<div class="stuff__image">
-														<img
-															src="https://i.pravatar.cc/300?img=26"
-															alt="stuff"
-															class="img-fluid"
-														/>
-													</div>
-													<div class="stuff_about text-center pb-4">
-														<h6>Alumni</h6>
-														<h5>shafiul alam bhuiyan</h5>
-													</div>
-												</div>
-												<!-- <div class="follow__btn">
-													<p>details</p>
-												</div> -->
-											</div>
-										</a>
-									</div>
-								</div>
-								<!-- col  -->
-								<div class="col py-4">
-									<div class="stuff_card__wrapper">
-										<a href="/">
-											<div class="shadow">
-												<div class="stuff_card_area pt-5">
-													<div class="stuff__image">
-														<img
-															src="https://i.pravatar.cc/300?img=26"
-															alt="stuff"
-															class="img-fluid"
-														/>
-													</div>
-													<div class="stuff_about text-center pb-4">
-														<h6>Alumni</h6>
-														<h5>shafiul alam bhuiyan</h5>
-													</div>
-												</div>
-												<!-- <div class="follow__btn">
-													<p>details</p>
-												</div> -->
-											</div>
-										</a>
-									</div>
-								</div>
-								<!-- col  -->
-								<div class="col py-4">
-									<div class="stuff_card__wrapper">
-										<a href="/">
-											<div class="shadow">
-												<div class="stuff_card_area pt-5">
-													<div class="stuff__image">
-														<img
-															src="https://i.pravatar.cc/300?img=26"
-															alt="stuff"
-															class="img-fluid"
-														/>
-													</div>
-													<div class="stuff_about text-center pb-4">
-														<h6>Alumni</h6>
-														<h5>shafiul alam bhuiyan</h5>
-													</div>
-												</div>
-												<!-- <div class="follow__btn">
-													<p>details</p>
-												</div> -->
-											</div>
-										</a>
+										</main>
 									</div>
 								</div>
 							</div>
@@ -727,6 +616,8 @@
 			</div>
 		</div>
 		<!-- program page end  -->
+
+		<!-- footer  -->
 
 		<!-- footer  -->
 
@@ -817,19 +708,12 @@
 				</div>
 			</div>
 		</footer>
-
 		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 		<script src="./assets/js/owl.carousel.min.js"></script>
 		<script src="./assets/js/main.js"></script>
-		<script>
-			var tooltipTriggerList = [].slice.call(
-				document.querySelectorAll('[data-bs-toggle="tooltip"]')
-			);
-			var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-				return new bootstrap.Tooltip(tooltipTriggerEl);
-			});
-		</script>
+		<script></script>
 	</body>
 </html>

@@ -1562,8 +1562,8 @@ td {
 	overflow-y: scroll;
 }
 .custom-btn {
-	width: 130px;
-	height: 40px;
+	/* width: 130px; */
+	/* height: 40px; */
 	color: #fff;
 	border-radius: 5px;
 	padding: 10px 25px;
@@ -1629,4 +1629,12 @@ td {
 }
 .alumni_content p {
 	font-family: sans-serif;
+}
+
+
+/* festival page  */
+
+video {
+	width: 100%;
+	height: auto;
 }
