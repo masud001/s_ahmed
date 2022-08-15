@@ -413,28 +413,6 @@
 				<h1 class="mb-0 fw-bold text-uppercase text-white">academic calender</h1>
 			</div>
 
-			<!-- breadcrump  -->
-			<div class="breadcrumb-area px-md-5 py-1 breadcrumb_bg_color">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12">
-							<nav aria-label="breadcrumb">
-								<ol class="breadcrumb mb-0">
-									<li class="breadcrumb-item text-uppercase fw-normal">
-										<a href="#">
-											<span><i class="fas fa-home"></i></span>
-										</a>
-									</li>
-									<li class="breadcrumb-item text-uppercase fw-normal active">
-										<a href="#"> academy</a>
-									</li>
-								</ol>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			<!-- page main body start -->
 			<div class="page_main_body py-3 px-md-5">
 				<div class="container-fluid">
@@ -442,11 +420,11 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="result__wrapper p-2 p-md-4 shadow">
-								<div class="row">
+								<div class="table-responsive">
 									<!-- library page -->
 									<table
 										id="myTable"
-										class="display mt-2 pt-3"
+										class="display mt-2 pt-3 table"
 										cellspacing="0"
 										width="100%"
 									>
@@ -602,7 +580,9 @@
 		<script src="./assets/js/main.js"></script>
 		<script>
 			$(document).ready(function () {
-				$('#myTable').DataTable();
+				$('#myTable').DataTable({
+					responsive: true,
+				});
 			});
 		</script>
 	</body>

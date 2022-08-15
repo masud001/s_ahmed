@@ -1,7 +1,7 @@
 html,
 body {
 	color: #000 !important;
-	font-family: 'Goudy';
+	font-family: 'Arial, Helvetica, sans-serif';
 	background-color: #eae9ee !important;
 	margin: 0;
 	padding: 0;
@@ -14,12 +14,12 @@ body {
 }
 h1,
 p {
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 /* navbar design css  */
 .navbar-brand {
 	font-family: 'Trajan Pro' !important;
-	font-size: 16px;
+	font-size: 14px;
 }
 .nav_bg_color {
 	background-color: #333333;
@@ -94,7 +94,7 @@ p {
 	color: #fff;
 	display: block;
 	text-decoration: none;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 	padding: 7px 15px;
 	transition: 0.3s all ease-in;
 }
@@ -117,12 +117,12 @@ p {
 	color: #fff;
 }
 .searchbox-icon {
-	color: #000;
-	position: absolute;
-	z-index: 33;
-	right: 0;
-	top: 50%;
-	transform: translate(-34%, 16%);
+		color: #000;
+		position: absolute;
+		z-index: 33;
+		right: 0;
+		top: 50%;
+		transform: translate(-34%, 23%);
 }
 .searchbox {
 	position: relative;
@@ -210,14 +210,15 @@ p {
 .header__faculty_info_right h5 {
 	letter-spacing: 5px;
 	font-size: 15px;
-	font-family: 'Goudy' !important;
+	font-family: 'Arial, Helvetica, sans-serif' !important;
 	margin-bottom: 0;
 	right: -4px;
 }
 .header__faculty_info_right h3 {
 	font-size: 18px;
-	font-family: 'Goudy';
+	font-family: 'Arial, Helvetica, sans-serif';
 	margin-bottom: 0;
+	letter-spacing: 2px;
 }
 
 .header__faculty_info_right .department__logo {
@@ -303,7 +304,7 @@ p {
 	color: #fff;
 	display: block;
 	text-decoration: none;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 	padding: 7px 15px;
 	transition: 0.3s all ease-in;
 }
@@ -343,7 +344,7 @@ p {
 	color: #fff;
 	display: block;
 	text-decoration: none;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 	padding: 7px 15px;
 	transition: 0.3s all ease-in;
 }
@@ -471,7 +472,7 @@ p {
 	margin-bottom: 0;
 	text-decoration: none;
 	font-weight: 700;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .card__icon {
 	width: 50px;
@@ -624,10 +625,10 @@ video {
 }
 
 .card-title {
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .card-subtitle {
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 
 /* index section 
@@ -725,12 +726,12 @@ video {
 }
 .index_brands_grid_area figcaption strong {
 	text-transform: capitalize;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 	color: #4e4646;
 	font-size: 18px;
 }
 .index_brands_grid_area figcaption p {
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 	font-size: 16px;
 	font-weight: 300;
 	color: rgba(78, 70, 70, 0.5);
@@ -761,7 +762,7 @@ video {
 	text-decoration: none;
 	color: #fff;
 	font-size: 12px;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .programs_card_wrapper .programs-title {
 	color: #fff;
@@ -853,7 +854,7 @@ video {
 	font-size: 16px;
 	padding: 5px 25px;
 	border-radius: 10px;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 
 .sidebar_bg-color {
@@ -898,7 +899,7 @@ video {
 .academy__text_content p {
 	margin-bottom: 0;
 	font-size: 14px;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .academy__text_content {
 	text-align: justify;
@@ -935,13 +936,13 @@ video {
 	font-size: 35px;
 	font-weight: bold;
 	margin-bottom: 15px;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .notice__wrapper p {
 	text-align: justify;
 	font-size: 14px;
 	color: #000;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 
 .notice__wrapper button span img {
@@ -1044,7 +1045,7 @@ video {
 .program_text p {
 	color: #000;
 	font-size: 16px;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 
 .serial {
@@ -1059,7 +1060,7 @@ video {
 
 .table__wrapper .table {
 	background-color: #bdcbd4;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .divider__icon {
 	position: relative;
@@ -1145,7 +1146,7 @@ table,
 th,
 tr,
 td {
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 
 h6.stuff_designation {

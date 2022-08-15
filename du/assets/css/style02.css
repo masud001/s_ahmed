@@ -14,7 +14,7 @@
 	position: relative;
 	z-index: 0;
 	border-radius: 10px;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .glow-on-hover_2 {
 	width: 100%;
@@ -27,11 +27,11 @@
 	position: relative;
 	z-index: 0;
 	border-radius: 10px;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .glow-on-hover_2.request_info {
 	height: 62px !important;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .glow-on-hover:before {
 	content: '';
@@ -220,7 +220,7 @@
 	padding: 0 0 24px;
 	font-size: 30px;
 	line-height: 1.35;
-	font-family: 'Co Headline W' !important;
+	font-family: 'Arial, Helvetica, sans-serif' !important;
 	font-weight: bold;
 	color: #000;
 }
@@ -230,14 +230,14 @@
 	font-weight: 300;
 	line-height: 1.71;
 	color: rgb(95, 91, 91);
-	font-family: 'Co Headline W' !important;
+	font-family: 'Arial, Helvetica, sans-serif' !important;
 }
 .inner .link a {
 	display: inline-block;
 	padding: 0 70px 0 0;
 	font-size: 15px;
 	font-weight: bold;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 	color: #000;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -549,7 +549,7 @@
 	background: #fff;
 	border-radius: 0 6px 6px 0;
 	cursor: pointer;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .index_gray .tabs a:first-child {
 	border-radius: 6px 0 0 6px;
@@ -641,13 +641,13 @@
 	padding: 0 0 8px;
 	color: #4e4646;
 	font-size: 18px;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .three_place figure figcaption p {
 	font-size: 16px;
 	font-weight: 300;
 	color: rgba(78, 70, 70, 0.5);
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 
 @media (min-width: 240px) and (max-width: 479px) {
@@ -731,7 +731,7 @@
 	padding: 0 0 40px;
 	font-size: 30px;
 	line-height: 1.35;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .index_news .inset p {
 	max-width: 380px;
@@ -740,7 +740,7 @@
 	font-weight: 300;
 	line-height: 1.71;
 	color: rgba(0, 0, 0, 0.7);
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .index_news .inset .link a {
 	display: inline-block;
@@ -758,7 +758,7 @@
 	animation-duration: 0.15s;
 	-o-transition: all 0.15s linear;
 	transition: all 0.15s linear;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .index_news .inset .link a:hover {
 	padding: 0 135px 0 0;
@@ -818,12 +818,12 @@
 	animation-duration: 0.15s;
 	-o-transition: all 0.15s linear;
 	transition: all 0.15s linear;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 .two_news h3 a {
 	color: #000;
 	text-decoration: none;
-	font-family: 'Co Headline W';
+	font-family: 'Arial, Helvetica, sans-serif';
 }
 
 @media (min-width: 240px) and (max-width: 479px) {
