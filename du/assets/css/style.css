@@ -16,6 +16,17 @@ h1,
 p {
 	font-family: 'Arial, Helvetica, sans-serif';
 }
+.btn-du{
+	background-color: #730200;
+	color: #fff;
+}
+.bg-du-primary-100{
+	background-color: #730200;
+}
+.bg-du-primary-50{
+	background-color: #73020073;
+}
+
 /* navbar design css  */
 .navbar-brand {
 	font-family: 'Trajan Pro' !important;
@@ -149,12 +160,18 @@ p {
 }
 
 .dropdown__menu_section {
-	position: absolute;
-	width: 100%;
+	position: fixed;
+	width: 70%;
+	height: 100%;
 	background-color: rgba(0, 0, 0, 0.75);
 	padding: 30px 0px;
 	z-index: 99;
 	top: 32px;
+	left: -71%;
+	transition: all 0.5s ease-out;
+}
+.dropdown__menu_section.masud{
+left: 0%
 }
 .navbar__menu {
 }
@@ -165,9 +182,9 @@ p {
 	display: block;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 12px;
 	text-decoration: none;
-	padding: 10px 0px;
+	padding: 5px 0px;
 }
 .navbar__menu li a span {
 	margin-left: 15px;
@@ -508,14 +525,14 @@ video {
 }
 .video_card__area {
 	width: 100%;
-	height: 320px;
+	/* height: 320px; */
 	float: left;
 	margin: 0 0 25px;
 	padding: 0px 0px;
-	background: #babac0;
+	/* background: #babac0; */
 	border-radius: 10px;
-	-webkit-box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
-	box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
+	/* -webkit-box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
+	box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%); */
 	overflow: hidden;
 	position: relative;
 	-webkit-animation-duration: 0.15s;
@@ -766,7 +783,7 @@ video {
 }
 .programs_card_wrapper .programs-title {
 	color: #fff;
-	background-color: #fe0000;
+	background-color: #c2272d;
 	font-size: 30px;
 	padding: 5px 25px;
 	border-radius: 10px;
@@ -850,7 +867,7 @@ video {
 	font-weight: bold;
 	border: none;
 	color: #fff;
-	background-color: #fe0000;
+	background-color: #c2272d;
 	font-size: 16px;
 	padding: 5px 25px;
 	border-radius: 10px;
@@ -1008,7 +1025,7 @@ video {
 	margin-bottom: 25px;
 }
 .marks_n_credit {
-	background-color: #fe0000;
+	background-color: #c2272d;
 	border: 2px solid #b3b3b3;
 	width: 300px;
 	border-radius: 15px;

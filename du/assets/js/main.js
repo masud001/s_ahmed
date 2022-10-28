@@ -4,14 +4,41 @@ $(document).ready(function () {
 		$('.js_click').toggleClass('js_color');
 		console.log('clicked');
 	});
+	// mobile menu toggle
 	$('.js_toggle').click(function () {
-		$('.js_dropdown').toggleClass('d-none');
+		$('.js_dropdown').toggleClass('d-none masud');
 	});
 	$('.js__foo_nav').click(function () {
 		$('.navbar__search_input').toggleClass('d-none');
 	});
 	$('.js__toggle_foo').click(function () {
 		$('.foo_navigation').toggleClass('d-none');
+	});
+
+	// mobile toggle menu
+	$('.js_navbar__menu_dropdown').click(function (e) {
+		// e.preventDefault();
+		$('.navbar__menu_dropdown').toggleClass('d-none');
+	});
+	$('.js_navbar__menu_dropdown_academic').click(function (e) {
+		// e.preventDefault();
+		$('.navbar__menu_dropdown_academic').toggleClass('d-none');
+	});
+	$('.js_navbar__menu_dropdown_re_pub').click(function (e) {
+		// e.preventDefault();
+		$('.navbar__menu_dropdown_re_pub').toggleClass('d-none');
+	});
+	$('.js_navbar__menu_dropdown_activities').click(function (e) {
+		// e.preventDefault();
+		$('.navbar__menu_dropdown_activities').toggleClass('d-none');
+	});
+	$('.js_navbar__menu_dropdown_resources').click(function (e) {
+		// e.preventDefault();
+		$('.navbar__menu_dropdown_resources').toggleClass('d-none');
+	});
+	$('.js_navbar__menu_dropdown_alumni').click(function (e) {
+		// e.preventDefault();
+		$('.navbar__menu_dropdown_alumni').toggleClass('d-none');
 	});
 });
 
