@@ -1,0 +1,21 @@
+.font_style_normal{
+    font-family: 'Nolan-regular' !important;
+    font-weight: normal !important;
+    
+}
+.font_style_bold {
+    font-family: 'Nolan-bold' !important;
+    font-weight: bold !important;
+}
+.font_size_20{
+    font-size: 20px !important;
+}
+.font_size_22{
+    font-size: 22px !important;
+}
+.font_size_25{
+    font-size: 25px !important;
+}
+.font_color{
+    color: #4d4d4d !important;
+}
