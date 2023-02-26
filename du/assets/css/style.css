@@ -27,6 +27,8 @@ p {
 	background-color: #73020073;
 }
 
+
+
 /* navbar design css  */
 .navbar-brand {
 	font-family: 'Trajan Pro' !important;
@@ -143,7 +145,8 @@ p {
 }
 
 .input_search.masud {
-	display: none;
+	visibility: hidden;
+	width: 0 !important;
 }
 .input_search {
 	position: absolute;
@@ -154,6 +157,7 @@ p {
 	border: none;
 	border-radius: 15px;
 	padding: 5px 25px 5px 10px;
+	transition: width 1s;
 }
 .input_search:focus {
 	outline: 0;
@@ -163,31 +167,35 @@ p {
 	position: fixed;
 	width: 70%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: #fff;
 	padding: 30px 0px;
 	z-index: 99;
-	top: 32px;
+	top: 0px;
 	left: -71%;
+	color: #000;
 	transition: all 0.5s ease-out;
 }
 .dropdown__menu_section.masud{
 left: 0%
 }
 .navbar__menu {
+	margin: 0;
+	padding: 0 15px;
 }
 .navbar__menu li {
 	display: block;
 }
 .navbar__menu li a {
 	display: block;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 12px;
+	color: #000;
+	text-transform: capitalize;
+	font-size: 14px;
 	text-decoration: none;
 	padding: 5px 0px;
 }
-.navbar__menu li a span {
-	margin-left: 15px;
+.navbar__menu li a {
+display: flex;
+justify-content: space-between;
 }
 .navbar__menu li ul {
 	margin: 0;
@@ -202,8 +210,9 @@ left: 0%
 
 @media screen and (max-width: 1350px) {
 	.dropdown__menu_section {
-		top: 34px;
+		/* top: 34px; */
 	}
+	
 }
 
 /* header css design 
@@ -252,6 +261,14 @@ left: 0%
 	z-index: 5;
 	margin-top: 0px;
 	border-top: 3px solid #8f0004;
+}
+/* navbar sticky menu  */
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
 }
 .navbar_menu ul {
 	margin: 0;

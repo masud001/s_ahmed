@@ -1,3 +1,20 @@
+// sticky header
+window.onscroll = function () {
+	myFunction();
+	// console.log('first');
+};
+
+var navbar = document.getElementById('sticky_menu');
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+		navbar.classList.add('sticky');
+	} else {
+		navbar.classList.remove('sticky');
+	}
+}
+
 $(document).ready(function () {
 	$('.js_click').click(function () {
 		$('.js_input').toggleClass('masud');
@@ -5,9 +22,20 @@ $(document).ready(function () {
 		console.log('clicked');
 	});
 	// mobile menu toggle
+
 	$('.js_toggle').click(function () {
-		$('.js_dropdown').toggleClass('d-none masud');
+		$('.js_dropdown').toggleClass(' masud');
 	});
+
+	$('.fa-list-ul').click(function () {
+		$(this).addClass('d-none');
+		$('.fa-times').removeClass('d-none');
+	});
+	$('.fa-times').click(function () {
+		$(this).addClass('d-none');
+		$('.fa-list-ul').removeClass('d-none');
+	});
+
 	$('.js__foo_nav').click(function () {
 		$('.navbar__search_input').toggleClass('d-none');
 	});
